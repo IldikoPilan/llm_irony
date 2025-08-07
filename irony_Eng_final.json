@@ -1,0 +1,758 @@
+[
+    {
+        "want": "Emil is playing in his room. Mum comes in and says: “It’s very messy in here! You need to tidy up your room.” Emil answers: “Okay, I will tidy up now.” What does Emil’s mum want?\nA: Mum wants Emil to leave his toys on the carpet.\nB: Mum wants Emil to put his toys in a box.",
+        "emotion": "Emil tidies up his room. He puts all his toys back in the box. Mum says to Emil: “That’s great. You have tidied up!” How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 1
+    },
+    {
+        "want": "Jonas is playing soccer in the garden. Dad shouts at him: “It’s very muddy outside. Try not to get dirty!” Jonas answers: “Relax, Dad, I will not get dirty.” What does Jonas’s dad want? \nA: Dad wants Jonas to stay clean. \nB: Dad wants Jonas to get dirty.",
+        "emotion": "Jonas kicks the ball and falls into a large mudhole and he gets dirty. Dad says to Jonas: “That’s great. You didn’t get dirty.” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 2
+    },
+    {
+        "want": "Dad and Emma have just come home from sledding and are about to enter their house. Dad says to Emma. “Your shoes are full of snow. Take them off before going inside.” Emma answers: “Yes, I will take off my shoes before I go inside.” What does Emma’s dad want? \nA: Dad wants Emma to walk inside with her snowy shoes.\nB: Dad wants Emma to walk inside in her socks.",
+        "emotion": "Emma enters the house with her shoes on. They leave small puddles of snow on the floor. Dad says to Emma: “It was bad that you didn’t take your shoes off.” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 3
+    },
+    {
+        "want": "Nora’s hands are dirty from playing outside. Mum says to Nora:  “The food is ready. Go and wash your hands before sitting down at the table.” Nora answers: “Okay, I will wash my hands.”. What does Nora’s mum want? \nA: Mum wants Nora’s hands to be clean. \nB: Mum wants Nora’s hands to be dirty.",
+        "emotion": "Nora does not wash her hands and sits down at the table with dirty hands. Mum says to Nora: “Those hands were nice and clean!” How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 4
+    },
+    {
+        "want": "Henrik and his little sister Ida are playing with Lego. Ida is trying to build a tower. Mum says to Henrik: “It looks like Ida is having some difficulties building that tower. Can you help her?” Henrik says: “Yes, I will help Ida.” What does Henrik and Ida’s mum want? \nA: Mum wants Henrik to destroy the tower. \nB: Mum wants Henrik to help build the tower.",
+        "emotion": "Henrik helps Ida build a Lego tower. Mum says to Henrik: “It’s good that you helped Ida!” How does mum feel inside? Is she happy or angry?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 5
+    },
+    {
+        "want": "Anna is playing with a ball on her own. Her little brother Elias wants to join the game. Mum says to Anna:  ”Elias would like to play with that ball too. Can he join?” Anna answers: “Yes, Elias can join.” What does Anna and Elias’s mum want? \nA: Mum wants Anna and Elias to play with the ball together. \nB: Mum wants Anna to play alone with the ball.",
+        "emotion": "Anna continues to play with the ball alone. Mum says to Anna: “It’s bad that you didn’t let Elias join.” How does mum feel inside? Is she happy or angry?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 6
+    },
+    {
+        "want": "Frida and her friend Daniel are playing with cars together. Mum comes in with a large piece of chocolate in her hand. Mum says to Frida: “Here’s some chocolate. You have to share it with Daniel.” Frida answers: “Yes, I will share the chocolate with Daniel.” What does Frida’s mum want? \nA: mum wants Frida to eat the chocolate alone. \nB: Mum wants Frida to share the chocolate with Daniel.",
+        "emotion": "Frida splits the chocolate in two halves, and gives one of them to Daniel. They both eat the chocolate. Mum says to Frida: “You were good at sharing, Frida”. How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 7
+    },
+    {
+        "want": "Magnus and his friend Hanna are playing in the snow. Magnus makes a snowball with his hands.  Dad says to Magnus: “Remember that snowballs can be dangerous. Don’t throw it at anyone.” Magnus answers: “No, I won’t throw it at anyone.”. What does Magnus’s dad want? \nA: Dad wants the children not to throw the snowball at anyone.\nB: Dad wants Magnus to throw the snowball at Hanna.",
+        "emotion": "Magnus throws the snowball at Hanna. Dad says to Magnus: “Well done. You didn’t throw the snowball.” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 8
+    },
+    {
+        "want": "Dad and Mia are in a toy store. Mia is allowed to take a teddy bear. Dad says to Mia: “The large teddy bears are very expensive. You can pick a small teddy bear.” Mia answers: “Okay, I will pick a small teddy bear.” What does Mia’s dad want? \nA: Dad wants Mia to pick a small teddy bear.\nB: Dad wants Mia to pick a large teddy bear.",
+        "emotion": "Mia picks a large teddy bear twice her own size. Dad says to Mia: “That’s bad, you didn’t pick a small teddy bear!” How does dad feel inside? Is he angry or happy?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 9
+    },
+    {
+        "want": "Mum har finished Lukas’s lunch bag for kindergarten. Mum says to Lukas: “Here’s your lunch bag. You can take a dessert too, but it must be something healthy.” Lukas answers: “Okay, I will bring a healthy dessert.” What does Lukas’s mum want? \nA: Mum wants Lukas to take a candy as dessert. \nB: Mum wants Lukas to take an apple as dessert.",
+        "emotion": "Lukas brings an apple. Mum says to Lukas: “Yes, that’s a healthy dessert.”. How does mum feel inside? Is she happy or angry?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 10
+    },
+    {
+        "want": "It’s evening and dad is about to put Erik to bed. Dad says to Erik: “It’s already pretty late. You can choose a book to read, but it has to be a short one. Erik answers: “Okay, I will find a short book.” What does Erik’s dad want? \nA: Dad wants Erik to choose a short book.\nB: Dad wants Erik to choose a long book.",
+        "emotion": "Erik finds the longest book on the bookshelf. Dad says to Erik: “No, that’s not a short book!” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 11
+    },
+    {
+        "want": "Mum and Ronja are going to her grandmother’s birthday. Mum says to Ronja: “Let’s make grandmother happy! Go and put on the pretty dress she has given you.” Ronja answers: “Okay, I will put on the pretty dress”. What does Ronja’s mother want? \nA: Mum wants Ronja to wear her normal clothes.\nB: Mum wants Ronja to wear her pretty dress.",
+        "emotion": "Ronja does not change, but wears her normal clothes. Mamma says to Ronja: “That’s a pretty dress!” How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 12
+    },
+    {
+        "want": "Emil is playing in his room. Mum comes in and says: “It’s very messy in here! You need to tidy up your room.” Emil answers: “Okay, I will tidy up now.” What does Emil’s mum want?\nA: Mum wants Emil to leave his toys on the carpet.\nB: Mum wants Emil to put his toys in a box.",
+        "emotion": "Emil continues to play with his cars. Mum says to Emil: “That’s great. You have tidied up!” How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 13
+    },
+    {
+        "want": "Jonas is playing soccer in the garden. Dad shouts at him: “It’s very muddy outside. Try not to get dirty!” Jonas answers: “Relax, Dad, I will not get dirty.” What does Jonas’s dad want? \nA: Dad wants Jonas to stay clean. \nB: Dad wants Jonas to get dirty.",
+        "emotion": "Jonas kicks the ball and falls into a large mudhole and he gets dirty. Dad says to Jonas: “That’s bad. You got very dirty.” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 14
+    },
+    {
+        "want": "Dad and Emma have just come home from sledding and are about to enter their house. Dad says to Emma. “Your shoes are full of snow. Take them off before going inside.” Emma answers: “Yes, I will take off my shoes before I go inside.” What does Emma’s dad want? \nA: Dad wants Emma to walk inside with her snowy shoes.\nB: Dad wants Emma to walk inside in her socks.",
+        "emotion": "Emma takes off her shoes and enters the house. The floor is nice and dry. Dad says to Emma: “It was good that you took your shoes off.” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 15
+    },
+    {
+        "want": "Nora’s hands are dirty from playing outside. Mum says to Nora:  “The food is ready. Go and wash your hands before sitting down at the table.” Nora answers: “Okay, I will wash my hands.”. What does Nora’s mum want? \nA: Mum wants Nora’s hands to be clean. \nB: Mum wants Nora’s hands to be dirty.",
+        "emotion": "Nora does not wash her hands and sits down at the table with dirty hands. Mum says to Nora: “Those hands were not nice and clean!” How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 16
+    },
+    {
+        "want": "Henrik and his little sister Ida are playing with Lego. Ida is trying to build a tower. Mum says to Henrik: “It looks like Ida is having some difficulties building that tower. Can you help her?” Henrik says: “Yes, I will help Ida.” What does Henrik and Ida’s mum want?\nA: Mum wants Henrik to destroy the tower. \nB: Mum wants Henrik to help build the tower.",
+        "emotion": "Henrik keeps playing with his own Lego instead. Mum says to Henrik: “It’s good that you helped Ida!” How does mum feel inside? Is she happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 17
+    },
+    {
+        "want": "Anna is playing with a ball on her own. Her little brother Elias wants to join the game. Mum says to Anna:  ”Elias would like to play with that ball too. Can he join?” Anna answers: “Yes, Elias can join.” What does Anna and Elias’s mum want? \nA: Mum wants Anna and Elias to play with the ball together. \nB: Mum wants Anna to play alone with the ball.",
+        "emotion": "Anna throws the ball to Elias and he throws it back to Anna. Mum says to Anna: “It’s good that you let Elias join.” How does mum feel inside? Is she happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 18
+    },
+    {
+        "want": "Frida and her friend Daniel are playing with cars together. Mum comes in with a large piece of chocolate in her hand. Mum says to Frida: “Here’s some chocolate. You have to share it with Daniel.” Frida answers: “Yes, I will share the chocolate with Daniel.” What does Frida’s mum want? \nA: mum wants Frida to eat the chocolate alone. \nB: Mum wants Frida to share the chocolate with Daniel.",
+        "emotion": "Frida eats the whole chocolate herself. Mum says to Frida: “You were good at sharing, Frida”. How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 19
+    },
+    {
+        "want": "Magnus and his friend Hanna are playing in the snow. Magnus makes a snowball with his hands.  Dad says to Magnus: “Remember that snowballs can be dangerous. Don’t throw it at anyone.” Magnus answers: “No, I won’t throw it at anyone.”. What does Magnus’s dad want? \nA: Dad wants the children not to throw the snowball at anyone.\nB: Dad wants Magnus to throw the snowball at Hanna.",
+        "emotion": "Magnus throws the snowball at Hanna. Dad says to Magnus: “Badly done. You did throw the snowball.” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 20
+    },
+    {
+        "want": "Dad and Mia are in a toy store. Mia is allowed to take a teddy bear. Dad says to Mia: “The large teddy bears are very expensive. You can pick a small teddy bear.” Mia answers: “Okay, I will pick a small teddy bear.” What does Mia’s dad want? \nA: Dad wants Mia to pick a small teddy bear.\nB: Dad wants Mia to pick a large teddy bear.",
+        "emotion": "Mia picks a small teddy bear that fits in her hand. Dad says to Mia: “That’s great, you picked a small teddy bear!” How does dad feel inside? Is he angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 21
+    },
+    {
+        "want": "Mum har finished Lukas’s lunch bag for kindergarten. Mum says to Lukas: “Here’s your lunch bag. You can take a dessert too, but it must be something healthy.” Lukas answers: “Okay, I will bring a healthy dessert.” What does Lukas’s mum want? \nA: Mum wants Lukas to take a candy as dessert. \nB: Mum wants Lukas to take an apple as dessert.",
+        "emotion": "Lukas brings a lollipop. Mum says to Lukas: “Yes, that’s a healthy dessert.”. How does mum feel inside? Is she happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 22
+    },
+    {
+        "want": "It’s evening and dad is about to put Erik to bed. Dad says to Erik: “It’s already pretty late. You can choose a book to read, but it has to be a short one. Erik answers: “Okay, I will find a short book.” What does Erik’s dad want? \nA: Dad wants Erik to choose a short book.\nB: Dad wants Erik to choose a long book.",
+        "emotion": "Erik finds the shortest book on the bookshelf. Dad says to Erik: “Yes, that’s a short book!” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 23
+    },
+    {
+        "want": "Mum and Ronja are going to her grandmother’s birthday. Mum says to Ronja: “Let’s make grandmother happy! Go and put on the pretty dress she has given you.” Ronja answers: “Okay, I will put on the pretty dress”. What does Ronja’s mother want? \nA: Mum wants Ronja to wear her normal clothes.\nB: Mum wants Ronja to wear her pretty dress.",
+        "emotion": "Ronja does not change, but wears her normal clothes. Mamma says to Ronja: “That’s not a pretty dress!” How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 24
+    },
+    {
+        "want": "Emil is playing in his room. Mum comes in and says: “It’s very messy in here! You need to tidy up your room.” Emil answers: “Okay, I will tidy up now.” What does Emil’s mum want?\nA: Mum wants Emil to leave his toys on the carpet.\nB: Mum wants Emil to put his toys in a box.",
+        "emotion": "Emil continues to play with his cars. Mum says to Emil: “That’s bad. You haven’t tidied up!” How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 25
+    },
+    {
+        "want": "Jonas is playing soccer in the garden. Dad shouts at him: “It’s very muddy outside. Try not to get dirty!” Jonas answers: “Relax, Dad, I will not get dirty.” What does Jonas’s dad want? \nA: Dad wants Jonas to stay clean. \nB: Dad wants Jonas to get dirty.",
+        "emotion": "Jonas kicks the ball and makes sure he doesn’t fall over in the mud. Dad says to Jonas: “That’s great. You didn’t get dirty.” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 26
+    },
+    {
+        "want": "Dad and Emma have just come home from sledding and are about to enter their house. Dad says to Emma. “Your shoes are full of snow. Take them off before going inside.” Emma answers: “Yes, I will take off my shoes before I go inside.” What does Emma’s dad want? \nA: Dad wants Emma to walk inside with her snowy shoes.\nB: Dad wants Emma to walk inside in her socks.",
+        "emotion": "Emma enters the house with her shoes on. They leave small puddles of snow on the floor. Dad says to Emma: “It was good that you took your shoes off.” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 27
+    },
+    {
+        "want": "Nora’s hands are dirty from playing outside. Mum says to Nora:  “The food is ready. Go and wash your hands before sitting down at the table.” Nora answers: “Okay, I will wash my hands.”. What does Nora’s mum want? \nA: Mum wants Nora’s hands to be clean. \nB: Mum wants Nora’s hands to be dirty.",
+        "emotion": "Nora washes her hands before she sists down. Mum says to Nora: “Those hands were nice and clean!” How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 28
+    },
+    {
+        "want": "Henrik and his little sister Ida are playing with Lego. Ida is trying to build a tower. Mum says to Henrik: “It looks like Ida is having some difficulties building that tower. Can you help her?” Henrik says: “Yes, I will help Ida.” What does Henrik and Ida’s mum want? \nA: Mum wants Henrik to destroy the tower. \nB: Mum wants Henrik to help build the tower.",
+        "emotion": "Henrik keeps playing with his own Lego instead. Mum says to Henrik: “It’s bad that you didn’t help Ida!” How does mum feel inside? Is she happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 29
+    },
+    {
+        "want": "Anna is playing with a ball on her own. Her little brother Elias wants to join the game. Mum says to Anna:  ”Elias would like to play with that ball too. Can he join?” Anna answers: “Yes, Elias can join.” What does Anna and Elias’s mum want? \nA: Mum wants Anna and Elias to play with the ball together. \nB: Mum wants Anna to play alone with the ball.",
+        "emotion": "Anna continues to play with the ball alone. Mum says to Anna: “It’s good that you let Elias join.” How does mum feel inside? Is she happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 30
+    },
+    {
+        "want": "Frida and her friend Daniel are playing with cars together. Mum comes in with a large piece of chocolate in her hand. Mum says to Frida: “Here’s some chocolate. You have to share it with Daniel.” Frida answers: “Yes, I will share the chocolate with Daniel.” What does Frida’s mum want? \nA: mum wants Frida to eat the chocolate alone. \nB: Mum wants Frida to share the chocolate with Daniel.",
+        "emotion": "Frida eats the whole chocolate herself. Mum says to Frida: “You were not good at sharing, Frida”. How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 31
+    },
+    {
+        "want": "Magnus and his friend Hanna are playing in the snow. Magnus makes a snowball with his hands.  Dad says to Magnus: “Remember that snowballs can be dangerous. Don’t throw it at anyone.” Magnus answers: “No, I won’t throw it at anyone.”. What does Magnus’s dad want? \nA: Dad wants the children not to throw the snowball at anyone.\nB: Dad wants Magnus to throw the snowball at Hanna.",
+        "emotion": "Magnus puts the snowball on the ground. Dad says to Magnus: “Well done. You didn’t throw the snowball.” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 32
+    },
+    {
+        "want": "Dad and Mia are in a toy store. Mia is allowed to take a teddy bear. Dad says to Mia: “The large teddy bears are very expensive. You can pick a small teddy bear.” Mia answers: “Okay, I will pick a small teddy bear.” What does Mia’s dad want? \nA: Dad wants Mia to pick a small teddy bear.\nB: Dad wants Mia to pick a large teddy bear.",
+        "emotion": "Mia picks a large teddy bear twice her own size. Dad says to Mia: “That’s great, you picked a small teddy bear!” How does dad feel inside? Is he angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 33
+    },
+    {
+        "want": "Mum har finished Lukas’s lunch bag for kindergarten. Mum says to Lukas: “Here’s your lunch bag. You can take a dessert too, but it must be something healthy.” Lukas answers: “Okay, I will bring a healthy dessert.” What does Lukas’s mum want? \nA: Mum wants Lukas to take a candy as dessert. \nB: Mum wants Lukas to take an apple as dessert.",
+        "emotion": "Lukas brings a lollipop. Mum says to Lukas: “No, that’s not a healthy dessert.”. How does mum feel inside? Is she happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 34
+    },
+    {
+        "want": "It’s evening and dad is about to put Erik to bed. Dad says to Erik: “It’s already pretty late. You can choose a book to read, but it has to be a short one. Erik answers: “Okay, I will find a short book.” What does Erik’s dad want? \nA: Dad wants Erik to choose a short book.\nB: Dad wants Erik to choose a long book.",
+        "emotion": "Erik finds the longest book on the bookshelf. Dad says to Erik: “Yes, that’s a short book!” How does dad feel inside? Is he happy or angry?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 35
+    },
+    {
+        "want": "Mum and Ronja are going to her grandmother’s birthday. Mum says to Ronja: “Let’s make grandmother happy! Go and put on the pretty dress she has given you.” Ronja answers: “Okay, I will put on the pretty dress”. What does Ronja’s mother want? \nA: Mum wants Ronja to wear her normal clothes.\nB: Mum wants Ronja to wear her pretty dress.",
+        "emotion": "Ronja puts on the pretty dress her grandmother has given her. Mamma says to Ronja: “That’s a pretty dress!” How does mum feel inside? Is she angry or happy?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 36
+    },
+    {
+        "want": "Mum has bought a muffin for Anders at the store. Mum says to Anders: “The muffin is for dessert. You have to wait to eat it until after dinner.” Anders says: “Okay, I’ll wait to eat the muffin.” What does Anders’ mum want?\nA: Mum wants Anders to wait to eat the muffin.\nB: Mum wants Anders to eat the muffin now.",
+        "emotion": "Anders eats the muffin before dinner. Mum says to Anders: “But you didn’t wait to eat the muffin.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 37
+    },
+    {
+        "want": "Selma and her little brother Jonas are playing outside in the rain. Mum says to Selma: “Remember that Jonas doesn’t want to get wet. Don’t jump in the puddles and splash water on him.” Selma replies: “Okay, I won’t jump in the puddles.” What does Selma’s mum want?\nA: Mum wants Selma to jump in the puddles and splash water on Jonas.\nB: Mum wants Selma not to jump in the puddles.",
+        "emotion": "Selma jumps right into a puddle so that Jonas gets soaking wet. Mum says to Selma: “Badly done. You did jump in the puddles.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 38
+    },
+    {
+        "want": "Stian and his dad are at the store. Dad says to Stian: “You can buy something to eat on the way home, but it has to be healthy.” Stian replies: “Okay, I’ll choose something healthy to eat.” What does Stian’s dad want?\nA: That Stian should choose something healthy to eat on the way home.\nB: That Stian should choose something unhealthy to eat on the way home.",
+        "emotion": "Stian chooses a large chocolate bar for her to eat. Dad says to Stian: “That is not something healthy to eat.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 39
+    },
+    {
+        "want": "Caroline is getting ready to go to school. Dad says: “Remember to comb your hair before you go. It’s really tousled.” Caroline replies: “Okay, I’ll comb my hair.” What does Caroline’s dad want?\nA: That she goes to school with tousled hair.\nB: That she goes to school with well-groomed hair.",
+        "emotion": "Caroline does not comb her hair. Dad says to Caroline: “But you didn’t comb your hair.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 40
+    },
+    {
+        "want": "Josef is eating dinner before bedtime. Mum says to Josef: “Remember to put away your plate when you’re done eating.” Josef replies: “Okay, I’ll put away my plate.” What does Josef’s mum want?\nA: That Josef should put away his plate.\nB: That Josef should leave his plate on the dining table.",
+        "emotion": "Josef goes straight to the bathroom without putting away his plate. Mum says to Josef: “It’s bad that you didn’t put away your plate.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 41
+    },
+    {
+        "want": "Nina and her mother have bought a gift for Nina’s grandmother. Nina gets to choose a ribbon bow to put on the gift. Her mother says to Nina: “The big ribbon bows are very expensive. You can choose a small ribbon bow.” Nina replies: “Okay, I’ll choose a small ribbon bow.” What does Nina’s mother want?\nA: That Nina choose a big ribbon bow for the gift.\nB: That Nina choose a small ribbon bow for the gift.",
+        "emotion": "Nina chooses the largest ribbon bow she finds in the shop. Mum says to Nina: “That is not a small ribbon bow.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 42
+    },
+    {
+        "want": "Alexander and his little sister Ingvild are playing together in the living room. Alexander wants to play a board game with his dad. Dad says to Alexander: “Ingvild must also join in. Choose an easy game that she can also join in.” Alexander answers: “Okay, I’ll choose an easy game.” What does Alexander’s dad want?\nA: Dad wants Alexander to choose an easy board game.\nB: Dad wants Alexander to choose a difficult board game.",
+        "emotion": "Alexander chooses the most difficult board game that he can find. Dad says to Alexander: “That is not an easy game that Ingvild also can play.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 43
+    },
+    {
+        "want": "Jacob is drawing by the dining table. Mum says to Jacob: “It’s almost dinner time. You need to put away your drawing supplies.” Jacob replies, “Okay, I’ll put away my drawing supplies.” What does Jacob’s mum want?\nA: Mum wants Jacob to leave his drawing supplies on the dining table.\nB: Mum wants Jacob to put away his drawing supplies.",
+        "emotion": "Jacob does not put away his drawing supplies but keeps on drawing. Mum says to Jacob: “But you didn’t put away your drawing supplies.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 44
+    },
+    {
+        "want": "Laura is doing her homework in her room. Her dad says to Laura: “You can play outside later, but you have to finish your homework first.” Laura replies: “Okay, I’ll finish my homework.” What does Laura’s dad want?\nA: Dad wants Laura to finish her homework before she plays.\nB: Dad wants Laura to play without finishing her homework.",
+        "emotion": "Laura runs out to play before finishing her homework. Dad says to Laura: “It’s bad that you didn’t finish your homework before you started playing.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 45
+    },
+    {
+        "want": "Christian has been to soccer practice and is about to take a shower. Dad says to Christian: “Your workout clothes smell bad. Remember to put them in the laundry basket when you’re done in the shower.” Christian replies: “Okay, I’ll put the workout clothes in the laundry basket.” What does Christian’s dad want?\nA: Dad wants Christian to leave his workout clothes on the floor.\nB: Dad wants Christian to put his workout clothes in the laundry basket.",
+        "emotion": "Christian leaves his workout clothes on the bathroom floor. Dad says to Christian: “But you didn’t put your workout clothes in the laundry basket.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 46
+    },
+    {
+        "want": "Mum has driven Sophie and her little sister Mia to school. Mum says to Sophie: “Remember to wait for Mia after school, so that you can walk home together.” Sophie answers: “Yes, I’ll wait for Mia.” What does Sophie’s mum want?\nA: Mum wants Sophie to walk home from school with Mia.\nB: Mum wants Sophie to walk home from school without Mia.",
+        "emotion": "Sophie does not wait for Mia and walks home alone after school. Mum says to Sophie: “But you didn’t walk home from school with Mia.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 47
+    },
+    {
+        "want": "Oliver is packing his backpack for school. Mum says to Oliver: “You can bring a teddy bear to school, but bring a small one.” Oliver replies: “Okay, I’ll bring a small teddy bear.” What does Oliver’s mum want?\nA: Mum wants Oliver to bring a big teddy bear to school.\nB: Mum wants Oliver to bring a small teddy bear to school.",
+        "emotion": "Oliver takes his largest teddy bear, which barely fits in the backpack. Mum says to Oliver: “That is not a small teddy bear.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 48
+    },
+    {
+        "want": "Adam is playing with his cars in the living room. Dad says to Oliver: “We’re having guests over soon. You need to put your cars away.” Adam replies: “Okay, I’ll put the cars away.” What does Adam’s dad want?\nA: Dad wants Adam to put his cars away.\nB: Dad wants Adam to keep playing with cars.",
+        "emotion": "Adam does not put away his cars and keeps playing them. Dad says to Adam: “You didn’t put your cars away.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 49
+    },
+    {
+        "want": "Lisa and her little brother Julian are jumping on the trampoline together. Dad says to Lisa: “Remember that Julian can get hurt if you jump high. Jump carefully when you jump with Julian.” Lisa replies: “Okay, I won’t jump high.” What does Lisa’s dad want?\nA: Dad wants Lisa to jump as high as she can.\nB: Dad wants Lisa to jump carefully.",
+        "emotion": "Lisa jumps as high as she can, so that Julian is bounced high. Dad says to Lisa: “That’s not jumping carefully.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 50
+    },
+    {
+        "want": "William and his mother are out sledging. His mother says to William: “The big hill is very icy and steep. You can only sledge down the small hills.” William replies: “Okay, I’ll just sledge down the small hills.” What does William’s mother want?\nA: His mother wants William to sledge down the small hills.\nB: His mother wants William to sledge down the big hill.",
+        "emotion": "William sledges down the big hill as fast as he can. Mum says to William: “That’s bad. You sledged down the big hill.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 51
+    },
+    {
+        "want": "Camilla and her dad are on a road trip. Camilla is watching videos on her iPad. Dad says to Camilla: “Remember that you are easily motion sick. You can only watch one more video.” Camilla replies: “Okay, I’ll just watch one more video.” What does Camilla’s dad want?\nA: Dad wants Camilla to watch a lot more videos.\nB: Dad wants Camilla to just watch one more video.",
+        "emotion": "Camilla watches another five videos. Dad says to Camilla: “That’s not good. You watched a lot more videos.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 52
+    },
+    {
+        "want": "John is about to get ready for bed. Dad says to John: “I’ll come and say good night in five minutes. Remember to brush your teeth before you go to bed.” John replies: “Yes, I’ll remember to brush my teeth.” What does John’s dad want?\nA: Dad wants John to brush his teeth before he goes to bed.\nB: Dad wants John to go to bed without brushing his teeth.",
+        "emotion": "Johannes goes to bed without brushing his teeth. Dad says to Johannes: “That’s bad. You didn’t brush your teeth.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 53
+    },
+    {
+        "want": "Karl and his friend Mira are having a water fight in the garden with water balloons. Mum says to Karl: “Remember that the door to the living room is open. Make sure no water gets in.” Karl replies: “Okay, we’ll make sure no water gets in.” What does Karl’s mum want?\nA: Mum wants Karl not to throw water balloons in.\nB: Mum wants Karl to throw water balloons in.",
+        "emotion": "Karl throws a water balloon through the living room door so that the whole floor gets wet. Mum says to Karl: \"It’s bad you didn’t make sure no water got in.\"How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 54
+    },
+    {
+        "want": "Miriam is packing her suitcase for the holiday. Dad says to Miriam: “Remember not to pack too many things. Then your suitcase will be very heavy.” Miriam answers: “Okay, I won’t pack too much.” What does Miriam’s dad want?\nA: Dad wants Miriam not to pack too much.\nB: Dad wants Miriam to pack as many things as she can.",
+        "emotion": "Miriam packs as many toys as she can find and can barely lift her own suitcase. Dad says to Miriam: “Not good. You packed way too much.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 55
+    },
+    {
+        "want": "Oskar is playing video games, while his little brother Fredrik is watching. Mum says to Oskar: “You have played for a long time. After this round it is Fredrik’s turn.” Oskar replies: “Sure, Fredrik will get to play after this round.” What does Oskar’s mum want?\nA: Mum wants Oskar to keep playing.\nB: Mum wants Oskar to let Fredrik play.",
+        "emotion": "Oskar plays many more rounds without letting Fredrik play. Mum says to Oskar: “It’s bad you didn’t let Fredrik play.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 56
+    },
+    {
+        "want": "Heidi is celebrating her birthday and wants to invite her friends. Mum says to Heidi: “Here are the invitations for your birthday. Remember to hand them out at school today.” Heidi says: “Sure, I’ll remember to hand out the invitations.” What does Heidi’s mum want?\nA: Mum wants Heidi to hand out the invitations at school.\nB: Mum doesn’t want Heidi to hand out the invitations at school.",
+        "emotion": "Heidi forgets to hand out the invitations, and brigs them back home in her backpack. Mum says to Heidi: “That’s bad. You didn’t remember to hand out the invitations.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 57
+    },
+    {
+        "want": "Richard wants to make a cake without help. Dad says to Richard: “Remember to add baking powder, otherwise the cake won’t rise.” Richard replies: “Okay, I’ll remember to add baking powder.” What does Richard’s dad want?\nA: Dad wants Richard not to add baking powder.\nB: Dad wants Richard to remember to add baking powder.",
+        "emotion": "Richard forgets to add baking powder to the batter, and the cake comes out flat. Dad says to Richard: “That’s bad. You forgot to add the baking powder.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 58
+    },
+    {
+        "want": "Marie has gotten some new Lego and is looking forward to building it. Dad says to Marie: “Remember to only open one bag at a time. If you open them all at once, it will be difficult to find the right pieces.” Marie replies: “Okay, I’ll only open one bag at a time.” What does Marie’s dad want?\nA: Dad wants Marie to open one bag at a time.\nB: Dad wants Marie to open all the bags at once.",
+        "emotion": "Marie opens all the bags at once and mixes all the pieces togetherDad says to Marie: “That’s not good. You only opened all the bags at once.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 59
+    },
+    {
+        "want": "Bendik wants to go out and play in the nice weather. Mum says to Bendik: “Remember to put on sunscreen before you go outside, so you don’t get sunburned.” Bendik replies: “Okay, I’ll remember to put on sunscreen.” What does Bendik’s mum want?\nA: Mum wants Bendik to go outside without sunscreen.\nB: Mum wants Bendik to put on sunscreen before he goes outside.",
+        "emotion": "Bendik does not put on sunscreen and is all red in the face when he goes back inside. Mum says to Bendik: “That’s bad. You did not remember to put on sunscreen.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 60
+    },
+    {
+        "want": "Mum has bought a muffin for Anders at the store. Mum says to Anders: “The muffin is for dessert. You have to wait to eat it until after dinner.” Anders says: “Okay, I’ll wait to eat the muffin.” What does Anders’ mum want?\nA: Mum wants Anders to wait to eat the muffin.\nB: Mum wants Anders to eat the muffin now.",
+        "emotion": "Anders eats the muffin before dinner. Mum says to Anders: “That’s great! You waited to eat the muffin.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 61
+    },
+    {
+        "want": "Selma and her little brother Jonas are playing outside in the rain. Mum says to Selma: “Remember that Jonas doesn’t want to get wet. Don’t jump in the puddles and splash water on him.” Selma replies: “Okay, I won’t jump in the puddles.” What does Selma’s mum want?\nA: Mum wants Selma to jump in the puddles and splash water on Jonas.\nB: Mum wants Selma not to jump in the puddles.",
+        "emotion": "Selma jumps right into a puddle so that Jonas gets soaking wet. Mum says to Selma: “Good job, you didn’t jump in the puddles.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 62
+    },
+    {
+        "want": "Stian and his dad are at the store. Dad says to Stian: “You can buy something to eat on the way home, but it has to be healthy.” Stian replies: “Okay, I’ll choose something healthy to eat.” What does Stian’s dad want?\nA: That Stian should choose something healthy to eat on the way home.\nB: That Stian should choose something unhealthy to eat on the way home.",
+        "emotion": "Stian chooses a large chocolate bar for her to eat. Dad says to Stian: “It’s great that you chose something healthy to eat.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 63
+    },
+    {
+        "want": "Caroline is getting ready to go to school. Dad says: “Remember to comb your hair before you go. It’s really tousled.” Caroline replies: “Okay, I’ll comb my hair.” What does Caroline’s dad want?\nA: That she goes to school with tousled hair.\nB: That she goes to school with well-groomed hair.",
+        "emotion": "Caroline does not comb her hair. Dad says to Caroline: “That’s great. You combed your hair.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 64
+    },
+    {
+        "want": "Josef is eating dinner before bedtime. Mum says to Josef: “Remember to put away your plate when you’re done eating.” Josef replies: “Okay, I’ll put away my plate.” What does Josef’s mum want?\nA: That Josef should put away his plate.\nB: That Josef should leave his plate on the dining table.",
+        "emotion": "Josef goes straight to the bathroom without putting away his plate. Mum says to Josef: “It’s great that you put your plate away.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 65
+    },
+    {
+        "want": "Nina and her mother have bought a gift for Nina’s grandmother. Nina gets to choose a ribbon bow to put on the gift. Her mother says to Nina: “The big ribbon bows are very expensive. You can choose a small ribbon bow.” Nina replies: “Okay, I’ll choose a small ribbon bow.” What does Nina’s mother want?\nA: That Nina choose a big ribbon bow for the gift.\nB: That Nina choose a small ribbon bow for the gift.",
+        "emotion": "Nina chooses the largest ribbon bow she finds in the shop. Mum says to Nina: “Good job. That was a small ribbon bow.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 66
+    },
+    {
+        "want": "Alexander and his little sister Ingvild are playing together in the living room. Alexander wants to play a board game with his dad. Dad says to Alexander: “Ingvild must also join in. Choose an easy game that she can also join in.” Alexander answers: “Okay, I’ll choose an easy game.” What does Alexander’s dad want?\nA: Dad wants Alexander to choose an easy board game.\nB: Dad wants Alexander to choose a difficult board game.",
+        "emotion": "Alexander chooses the most difficult board game that he can find. Dad says to Alexander: “That’s great, you chose an easy game that Ingvild also can play.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 67
+    },
+    {
+        "want": "Jacob is drawing by the dining table. Mum says to Jacob: “It’s almost dinner time. You need to put away your drawing supplies.” Jacob replies, “Okay, I’ll put away my drawing supplies.” What does Jacob’s mum want?\nA: Mum wants Jacob to leave his drawing supplies on the dining table.\nB: Mum wants Jacob to put away his drawing supplies.",
+        "emotion": "Jacob does not put away his drawing supplies but keeps on drawing. Mum says to Jacob: “That’s great. You’ve put away your drawing supplies.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 68
+    },
+    {
+        "want": "Laura is doing her homework in her room. Her dad says to Laura: “You can play outside later, but you have to finish your homework first.” Laura replies: “Okay, I’ll finish my homework.” What does Laura’s dad want?\nA: Dad wants Laura to finish her homework before she plays.\nB: Dad wants Laura to play without finishing her homework.",
+        "emotion": "Laura runs out to play before finishing her homework. Dad says to Laura: “It’s great that you finished your homework before you started playing.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 69
+    },
+    {
+        "want": "Christian has been to soccer practice and is about to take a shower. Dad says to Christian: “Your workout clothes smell bad. Remember to put them in the laundry basket when you’re done in the shower.” Christian replies: “Okay, I’ll put the workout clothes in the laundry basket.” What does Christian’s dad want?\nA: Dad wants Christian to leave his workout clothes on the floor.\nB: Dad wants Christian to put his workout clothes in the laundry basket.",
+        "emotion": "Christian leaves his workout clothes on the bathroom floor. Dad says to Christian: “Great job. You put your workout clothes in the laundry basket.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 70
+    },
+    {
+        "want": "Mum has driven Sophie and her little sister Mia to school. Mum says to Sophie: “Remember to wait for Mia after school, so that you can walk home together.” Sophie answers: “Yes, I’ll wait for Mia.” What does Sophie’s mum want?\nA: Mum wants Sophie to walk home from school with Mia.\nB: Mum wants Sophie to walk home from school without Mia.",
+        "emotion": "Sophie does not wait for Mia and walks home alone after school. Mum says to Sophie: “That’s great, you walked home from school with Mia.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 71
+    },
+    {
+        "want": "Oliver is packing his backpack for school. Mum says to Oliver: “You can bring a teddy bear to school, but bring a small one.” Oliver replies: “Okay, I’ll bring a small teddy bear.” What does Oliver’s mum want?\nA: Mum wants Oliver to bring a big teddy bear to school.\nB: Mum wants Oliver to bring a small teddy bear to school.",
+        "emotion": "Oliver takes his largest teddy bear, which barely fits in the backpack. Mum says to Oliver: “Well done. That was a small teddy bear.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 72
+    },
+    {
+        "want": "Adam is playing with his cars in the living room. Dad says to Oliver: “We’re having guests over soon. You need to put your cars away.” Adam replies: “Okay, I’ll put the cars away.” What does Adam’s dad want?\nA: Dad wants Adam to put his cars away.\nB: Dad wants Adam to keep playing with cars.",
+        "emotion": "Adam does not put away his cars and keeps playing them. Dad says to Adam: “It’s great that you put your cars away.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 73
+    },
+    {
+        "want": "Lisa and her little brother Julian are jumping on the trampoline together. Dad says to Lisa: “Remember that Julian can get hurt if you jump high. Jump carefully when you jump with Julian.” Lisa replies: “Okay, I won’t jump high.” What does Lisa’s dad want?\nA: Dad wants Lisa to jump as high as she can.\nB: Dad wants Lisa to jump carefully.",
+        "emotion": "Lisa jumps as high as she can, so that Julian is bounced high. Dad says to Lisa: “Good, you are jumping very carefully.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 74
+    },
+    {
+        "want": "William and his mother are out sledging. His mother says to William: “The big hill is very icy and steep. You can only sledge down the small hills.” William replies: “Okay, I’ll just sledge down the small hills.” What does William’s mother want?\nA: His mother wants William to sledge down the small hills.\nB: His mother wants William to sledge down the big hill.",
+        "emotion": "William sledges down the big hill as fast as he can. Mum says to William: “That’s good. You didn’t sledge down the big hill.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 75
+    },
+    {
+        "want": "Camilla and her dad are on a road trip. Camilla is watching videos on her iPad. Dad says to Camilla: “Remember that you are easily motion sick. You can only watch one more video.” Camilla replies: “Okay, I’ll just watch one more video.” What does Camilla’s dad want?\nA: Dad wants Camilla to watch a lot more videos.\nB: Dad wants Camilla to just watch one more video.",
+        "emotion": "Camilla watches another five videos. Dad says to Camilla: “Good job! You only watched one more video.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 76
+    },
+    {
+        "want": "John is about to get ready for bed. Dad says to John: “I’ll come and say good night in five minutes. Remember to brush your teeth before you go to bed.” John replies: “Yes, I’ll remember to brush my teeth.” What does John’s dad want?\nA: Dad wants John to brush his teeth before he goes to bed.\nB: Dad wants John to go to bed without brushing his teeth.",
+        "emotion": "Johannes goes to bed without brushing his teeth. Dad says to Johannes: “That’s great. You remembered to brush your teeth.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 77
+    },
+    {
+        "want": "Karl and his friend Mira are having a water fight in the garden with water balloons. Mum says to Karl: “Remember that the door to the living room is open. Make sure no water gets in.” Karl replies: “Okay, we’ll make sure no water gets in.” What does Karl’s mum want?\nA: Mum wants Karl not to throw water balloons in.\nB: Mum wants Karl to throw water balloons in.",
+        "emotion": "Karl throws a water balloon through the living room door so that the whole floor gets wet. Mum says to Karl: \"Good job. You made sure no water got in.\"How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 78
+    },
+    {
+        "want": "Miriam is packing her suitcase for the holiday. Dad says to Miriam: “Remember not to pack too many things. Then your suitcase will be very heavy.” Miriam answers: “Okay, I won’t pack too much.” What does Miriam’s dad want?\nA: Dad wants Miriam not to pack too much.\nB: Dad wants Miriam to pack as many things as she can.",
+        "emotion": "Miriam packs as many toys as she can find and can barely lift her own suitcase. Dad says to Miriam: “Good. You remembered not to pack too much.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 79
+    },
+    {
+        "want": "Oskar is playing video games, while his little brother Fredrik is watching. Mum says to Oskar: “You have played for a long time. After this round it is Fredrik’s turn.” Oskar replies: “Sure, Fredrik will get to play after this round.” What does Oskar’s mum want?\nA: Mum wants Oskar to keep playing.\nB: Mum wants Oskar to let Fredrik play.",
+        "emotion": "Oskar plays many more rounds without letting Fredrik play. Mum says to Oskar: “That’s great. You let Fredrik play too.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 80
+    },
+    {
+        "want": "Heidi is celebrating her birthday and wants to invite her friends. Mum says to Heidi: “Here are the invitations for your birthday. Remember to hand them out at school today.” Heidi says: “Sure, I’ll remember to hand out the invitations.” What does Heidi’s mum want?\nA: Mum wants Heidi to hand out the invitations at school.\nB: Mum doesn’t want Heidi to hand out the invitations at school.",
+        "emotion": "Heidi forgets to hand out the invitations, and brigs them back home in her backpack. Mum says to Heidi: “That’s great. You remembered to hand out the invitations.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 81
+    },
+    {
+        "want": "Richard wants to make a cake without help. Dad says to Richard: “Remember to add baking powder, otherwise the cake won’t rise.” Richard replies: “Okay, I’ll remember to add baking powder.” What does Richard’s dad want?\nA: Dad wants Richard not to add baking powder.\nB: Dad wants Richard to remember to add baking powder.",
+        "emotion": "Richard forgets to add baking powder to the batter, and the cake comes out flat. Dad says to Richard: “Good job. You remembered to add the baking powder.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 82
+    },
+    {
+        "want": "Marie has gotten some new Lego and is looking forward to building it. Dad says to Marie: “Remember to only open one bag at a time. If you open them all at once, it will be difficult to find the right pieces.” Marie replies: “Okay, I’ll only open one bag at a time.” What does Marie’s dad want?\nA: Dad wants Marie to open one bag at a time.\nB: Dad wants Marie to open all the bags at once.",
+        "emotion": "Marie opens all the bags at once and mixes all the pieces togetherDad says to Marie: “That’s great. You only opened one bag at a time.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 83
+    },
+    {
+        "want": "Bendik wants to go out and play in the nice weather. Mum says to Bendik: “Remember to put on sunscreen before you go outside, so you don’t get sunburned.” Bendik replies: “Okay, I’ll remember to put on sunscreen.” What does Bendik’s mum want?\nA: Mum wants Bendik to go outside without sunscreen.\nB: Mum wants Bendik to put on sunscreen before he goes outside.",
+        "emotion": "Bendik does not put on sunscreen and is all red in the face when he goes back inside. Mum says to Bendik: “That’s great. You remembered to put on sunscreen.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 84
+    },
+    {
+        "want": "Mum has bought a muffin for Anders at the store. Mum says to Anders: “The muffin is for dessert. You have to wait to eat it until after dinner.” Anders says: “Okay, I’ll wait to eat the muffin.” What does Anders’ mum want?\nA: Mum wants Anders to wait to eat the muffin.\nB: Mum wants Anders to eat the muffin now.",
+        "emotion": "Anders waits to eat the muffin until after dinner. Mum says to Anders: “That’s great! You waited to eat the muffin.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 85
+    },
+    {
+        "want": "Selma and her little brother Jonas are playing outside in the rain. Mum says to Selma: “Remember that Jonas doesn’t want to get wet. Don’t jump in the puddles and splash water on him.” Selma replies: “Okay, I won’t jump in the puddles.” What does Selma’s mum want?\nA: Mum wants Selma to jump in the puddles and splash water on Jonas.\nB: Mum wants Selma not to jump in the puddles.",
+        "emotion": "Selma is careful not to jump in the puddles so that Jonas gets wet. Mum says to Selma: “Good job, you didn’t jump in the puddles.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 86
+    },
+    {
+        "want": "Stian and his dad are at the store. Dad says to Stian: “You can buy something to eat on the way home, but it has to be healthy.” Stian replies: “Okay, I’ll choose something healthy to eat.” What does Stian’s dad want?\nA: That Stian should choose something healthy to eat on the way home.\nB: That Stian should choose something unhealthy to eat on the way home.",
+        "emotion": "Stian chooses a banana to eat. Dad says to Stian: “It’s great that you chose something healthy to eat.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 87
+    },
+    {
+        "want": "Caroline is getting ready to go to school. Dad says: “Remember to comb your hair before you go. It’s really tousled.” Caroline replies: “Okay, I’ll comb my hair.” What does Caroline’s dad want?\nA: That she goes to school with tousled hair.\nB: That she goes to school with well-groomed hair.",
+        "emotion": "Caroline combs her hair. Dad says to Caroline: “That’s great. You combed your hair.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 88
+    },
+    {
+        "want": "Josef is eating dinner before bedtime. Mum says to Josef: “Remember to put away your plate when you’re done eating.” Josef replies: “Okay, I’ll put away my plate.” What does Josef’s mum want?\nA: That Josef should put away his plate.\nB: That Josef should leave his plate on the dining table.",
+        "emotion": "Josef puts away his plate before going to the bathroom. Mum says to Josef: “It’s great that you put your plate away.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 89
+    },
+    {
+        "want": "Nina and her mother have bought a gift for Nina’s grandmother. Nina gets to choose a ribbon bow to put on the gift. Her mother says to Nina: “The big ribbon bows are very expensive. You can choose a small ribbon bow.” Nina replies: “Okay, I’ll choose a small ribbon bow.” What does Nina’s mother want?\nA: That Nina choose a big ribbon bow for the gift.\nB: That Nina choose a small ribbon bow for the gift.",
+        "emotion": "Nina chooses a small ribbon bow she finds in the shop. Mum says to Nina: “Good job. That was a small ribbon bow.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 90
+    },
+    {
+        "want": "Alexander and his little sister Ingvild are playing together in the living room. Alexander wants to play a board game with his dad. Dad says to Alexander: “Ingvild must also join in. Choose an easy game that she can also join in.” Alexander answers: “Okay, I’ll choose an easy game.” What does Alexander’s dad want?\nA: Dad wants Alexander to choose an easy board game.\nB: Dad wants Alexander to choose a difficult board game.",
+        "emotion": "Alexander chooses an easy board game that he and Ingvild have played before. Dad says to Alexander: “That’s great, you chose an easy game that Ingvild also can play.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 91
+    },
+    {
+        "want": "Jacob is drawing by the dining table. Mum says to Jacob: “It’s almost dinner time. You need to put away your drawing supplies.” Jacob replies, “Okay, I’ll put away my drawing supplies.” What does Jacob’s mum want?\nA: Mum wants Jacob to leave his drawing supplies on the dining table.\nB: Mum wants Jacob to put away his drawing supplies.",
+        "emotion": "Jacob puts away his drawing supplies and takes them to his room. Mum says to Jacob: “That’s great. You’ve put away your drawing supplies.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 92
+    },
+    {
+        "want": "Laura is doing her homework in her room. Her dad says to Laura: “You can play outside later, but you have to finish your homework first.” Laura replies: “Okay, I’ll finish my homework.” What does Laura’s dad want?\nA: Dad wants Laura to finish her homework before she plays.\nB: Dad wants Laura to play without finishing her homework.",
+        "emotion": "Laura finishes her homework before she runs outside to play. Dad says to Laura: “It’s great that you finished your homework before you started playing.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 93
+    },
+    {
+        "want": "Christian has been to soccer practice and is about to take a shower. Dad says to Christian: “Your workout clothes smell bad. Remember to put them in the laundry basket when you’re done in the shower.” Christian replies: “Okay, I’ll put the workout clothes in the laundry basket.” What does Christian’s dad want?\nA: Dad wants Christian to leave his workout clothes on the floor.\nB: Dad wants Christian to put his workout clothes in the laundry basket.",
+        "emotion": "Christian puts his workout clothes in the laundry basket after he has showered. Dad says to Christian: “Great job. You put your workout clothes in the laundry basket.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 94
+    },
+    {
+        "want": "Mum has driven Sophie and her little sister Mia to school. Mum says to Sophie: “Remember to wait for Mia after school, so that you can walk home together.” Sophie answers: “Yes, I’ll wait for Mia.” What does Sophie’s mum want?\nA: Mum wants Sophie to walk home from school with Mia.\nB: Mum wants Sophie to walk home from school without Mia.",
+        "emotion": "Sophie waits for Mia after school, and the two walk home together. Mum says to Sophie: “That’s great, you walked home from school with Mia.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 95
+    },
+    {
+        "want": "Oliver is packing his backpack for school. Mum says to Oliver: “You can bring a teddy bear to school, but bring a small one.” Oliver replies: “Okay, I’ll bring a small teddy bear.” What does Oliver’s mum want?\nA: Mum wants Oliver to bring a big teddy bear to school.\nB: Mum wants Oliver to bring a small teddy bear to school.",
+        "emotion": "Oliver takes one of his smallest teddy bears, which fits nicely in the backpack. Mum says to Oliver: “Well done. That was a small teddy bear.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 96
+    },
+    {
+        "want": "Adam is playing with his cars in the living room. Dad says to Oliver: “We’re having guests over soon. You need to put your cars away.” Adam replies: “Okay, I’ll put the cars away.” What does Adam’s dad want?\nA: Dad wants Adam to put his cars away.\nB: Dad wants Adam to keep playing with cars.",
+        "emotion": "Adam puts his cars away before the guests arrive. Dad says to Adam: “It’s great that you put your cars away.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 97
+    },
+    {
+        "want": "Lisa and her little brother Julian are jumping on the trampoline together. Dad says to Lisa: “Remember that Julian can get hurt if you jump high. Jump carefully when you jump with Julian.” Lisa replies: “Okay, I won’t jump high.” What does Lisa’s dad want?\nA: Dad wants Lisa to jump as high as she can.\nB: Dad wants Lisa to jump carefully.",
+        "emotion": "Lisa jumps carefully, so she and Julian can jump together. Dad says to Lisa: “Good, you are jumping very carefully.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 98
+    },
+    {
+        "want": "William and his mother are out sledging. His mother says to William: “The big hill is very icy and steep. You can only sledge down the small hills.” William replies: “Okay, I’ll just sledge down the small hills.” What does William’s mother want?\nA: His mother wants William to sledge down the small hills.\nB: His mother wants William to sledge down the big hill.",
+        "emotion": "William sledges down the small hills, avoiding the big hill. Mum says to William: “That’s good. You didn’t sledge down the big hill.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 99
+    },
+    {
+        "want": "Camilla and her dad are on a road trip. Camilla is watching videos on her iPad. Dad says to Camilla: “Remember that you are easily motion sick. You can only watch one more video.” Camilla replies: “Okay, I’ll just watch one more video.” What does Camilla’s dad want?\nA: Dad wants Camilla to watch a lot more videos.\nB: Dad wants Camilla to just watch one more video.",
+        "emotion": "Camilla watches one more video before putting her iPad away. Dad says to Camilla: “Good job! You only watched one more video.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 100
+    },
+    {
+        "want": "John is about to get ready for bed. Dad says to John: “I’ll come and say good night in five minutes. Remember to brush your teeth before you go to bed.” John replies: “Yes, I’ll remember to brush my teeth.” What does John’s dad want?\nA: Dad wants John to brush his teeth before he goes to bed.\nB: Dad wants John to go to bed without brushing his teeth.",
+        "emotion": "Johannes brushes his teeth before going to bed. Dad says to Johannes: “That’s great. You remembered to brush your teeth.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 101
+    },
+    {
+        "want": "Karl and his friend Mira are having a water fight in the garden with water balloons. Mum says to Karl: “Remember that the door to the living room is open. Make sure no water gets in.” Karl replies: “Okay, we’ll make sure no water gets in.” What does Karl’s mum want?\nA: Mum wants Karl not to throw water balloons in.\nB: Mum wants Karl to throw water balloons in.",
+        "emotion": "Karl makes sure they don't throw water ballons towards the living room door, and no water gets in. Mum says to Karl: \"Good job. You made sure no water got in.\"How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 102
+    },
+    {
+        "want": "Miriam is packing her suitcase for the holiday. Dad says to Miriam: “Remember not to pack too many things. Then your suitcase will be very heavy.” Miriam answers: “Okay, I won’t pack too much.” What does Miriam’s dad want?\nA: Dad wants Miriam not to pack too much.\nB: Dad wants Miriam to pack as many things as she can.",
+        "emotion": "Miriam only packs a few toys and carries the suitcase into the living room. Dad says to Miriam: “Good. You remembered not to pack too much.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 103
+    },
+    {
+        "want": "Oskar is playing video games, while his little brother Fredrik is watching. Mum says to Oskar: “You have played for a long time. After this round it is Fredrik’s turn.” Oskar replies: “Sure, Fredrik will get to play after this round.” What does Oskar’s mum want?\nA: Mum wants Oskar to keep playing.\nB: Mum wants Oskar to let Fredrik play.",
+        "emotion": "Oskar finishes the round and lets Fredrik play after him. Mum says to Oskar: “That’s great. You let Fredrik play too.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 104
+    },
+    {
+        "want": "Heidi is celebrating her birthday and wants to invite her friends. Mum says to Heidi: “Here are the invitations for your birthday. Remember to hand them out at school today.” Heidi says: “Sure, I’ll remember to hand out the invitations.” What does Heidi’s mum want?\nA: Mum wants Heidi to hand out the invitations at school.\nB: Mum doesn’t want Heidi to hand out the invitations at school.",
+        "emotion": "Heidi is handing out the invitations to her friends at school. Mum says to Heidi: “That’s great. You remembered to hand out the invitations.” How is mum feeling inside? Is she happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 105
+    },
+    {
+        "want": "Richard wants to make a cake without help. Dad says to Richard: “Remember to add baking powder, otherwise the cake won’t rise.” Richard replies: “Okay, I’ll remember to add baking powder.” What does Richard’s dad want?\nA: Dad wants Richard not to add baking powder.\nB: Dad wants Richard to remember to add baking powder.",
+        "emotion": "Richard adds baking powder to the batter, and the cake comes out fluffy. Dad says to Richard: “Good job. You remembered to add the baking powder.” How is dad feeling inside? Is he angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 106
+    },
+    {
+        "want": "Marie has gotten some new Lego and is looking forward to building it. Dad says to Marie: “Remember to only open one bag at a time. If you open them all at once, it will be difficult to find the right pieces.” Marie replies: “Okay, I’ll only open one bag at a time.” What does Marie’s dad want?\nA: Dad wants Marie to open one bag at a time.\nB: Dad wants Marie to open all the bags at once.",
+        "emotion": "Marie opens one bag at a time and finds it easy to find all the pieces. Dad says to Marie: “That’s great. You only opened one bag at a time.” How is dad feeling inside? Is he happy or angry?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 107
+    },
+    {
+        "want": "Bendik wants to go out and play in the nice weather. Mum says to Bendik: “Remember to put on sunscreen before you go outside, so you don’t get sunburned.” Bendik replies: “Okay, I’ll remember to put on sunscreen.” What does Bendik’s mum want?\nA: Mum wants Bendik to go outside without sunscreen.\nB: Mum wants Bendik to put on sunscreen before he goes outside.",
+        "emotion": "Bendik puts on sunscreen and goes outside to play. Mum says to Bendik: “That’s great. You remembered to put on sunscreen.” How is mum feeling inside? Is she angry or happy?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 108
+    }
+]

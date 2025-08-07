@@ -1,0 +1,758 @@
+[
+    {
+        "want": "Emil leker på rommet sitt. Mamma kommer inn og sier: “Det er veldig rotete her! Du må rydde rommet ditt.” Emil svarer: “Okei, jeg skal rydde opp nå.” Hva er det Emil sin mamma vil?\nA: Mamma vil at Emil skal la lekene sine være på gulvet.\nB: Mamma vil at Emil skal putte lekene sine i en boks.",
+        "emotion": "Emil rydder rommet sitt. Han putter alle lekene tilbake i kassen. Mamma sier til Emil: “Så flott. Du har jo ryddet opp!” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 1
+    },
+    {
+        "want": "Jonas spiller fotball i hagen. Pappa roper til ham: “Det er veldig sølete ute. Prøv å ikke bli så møkkete!” Jonas svarer: “Slapp av pappa, jeg skal ikke bli møkkete.” Hva er det Jonas sin pappa vil? \nA: Pappa vil at Jonas skal holde seg ren.\nB: Pappa vil at Jonas skal bli skitten.",
+        "emotion": "Jonas sparker ballen og snubler i en stor søledam. Pappa sier til Jonas: “Så bra. Du ble ikke noe møkkete nå.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 2
+    },
+    {
+        "want": "Pappa og Emma har nettopp kommet hjem fra aketur og skal til å gå inn. Pappa sier til Emma: ”Skoene dine er fulle av snø. Ta dem av før du går inn i huset.” Emma svarer: ”Jada, jeg skal ta av skoene før jeg går inn”. Hva er det Emma sin pappa vil? \nA: Pappa vil at Emma skal gå inn med de skitne skoene sine. \nB: Pappa vil at Emma skal gå inn i sokkelesten.",
+        "emotion": "Emma går inn i huset med skoene på. Det blir små dammer av snø på gulvet. Pappa sier til Emma: “Så dumt at du ikke tok av deg skoene!” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 3
+    },
+    {
+        "want": "Nora er skitten på hendene etter å ha lekt ute. Mamma sier til Nora: “Maten er ferdig. Gå og vask hendene dine før du setter deg ved bordet.” Nora svarer: “Okei, jeg skal vaske hendene”. Hva er det Nora sin mamma vil? \nA: Mamma vil at Nora’s hender skal være rene. \nB: Mamma vil at Nora’s hender skal være skitne.",
+        "emotion": "Nora vasker ikke hendene sine. Mamma sier til Nora: “ Ja, nå har du vasket hendene dine!”. Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 4
+    },
+    {
+        "want": "Henrik og lillesøsteren Ida leker med Lego. Ida prøver å bygge et tårn. Mamma sier til Henrik: “Det ser ut som Ida synes det er litt vanskelig å bygge det tårnet. Kanskje du kan hjelpe henne? Henrik sier: “Ja, jeg skal hjelpe Ida.” Hva er det mammaen til Henrik og Ida vil? \nA: Mamma vil at Henrik skal ødelegge tårnet. \nB: Mamma vil at Henrik skal hjelpe til med å bygge tårnet.",
+        "emotion": "Henrik hjelper Ida med å sette legobrikkene oppå hverandre til et tårn. Mamma sier til Henrik: “Ja, der hjalp du, Ida, Henrik.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 5
+    },
+    {
+        "want": "Anne leker med en ball alene. Lillebroren hennes Elias vil gjerne være med på leken. Mamma sier til Anna: ”Elias vil også leke med ballen. Kan han få være med?” Anna svarer: “Ja, Elias kan få være med”Hva er det Anna og Elias sin mamma vil? \nA: Mamma vil at Anna skal leke sammen med Elias. \nB: Mamma vil at Anna skal leke alene med ballen.",
+        "emotion": "Anna fortsetter å leke med ballen alene. Mamma sier til Anna: “Så dumt at Elias ikke fikk være med, da!” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 6
+    },
+    {
+        "want": "Frida og vennen hennes Daniel leker med biler sammen. Mamma kommer inn med en stor sjokolade i hånden. Mamma sier til Frida: “Her er litt sjokolade. Du må dele den med Daniel.” Frida svarer: “Ja, jeg skal dele sjokoladen med Daniel.” Hva er det mammaen til Frida vil? \nA: Mamma vil at Frida skal spise hele sjokoladen alene. \nB: Mamma vil at Frida skal dele sjokoladen med Daniel.",
+        "emotion": "Frida deler sjokoladen i to, og gir den ene til Daniel. De spiser sjokoladen begge to. Mamma sier til Frida: ”Så bra at du delte sjokoladen med Daniel, da!”. Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 7
+    },
+    {
+        "want": "Magnus og venninnen Hanna leker ute i snøen. Magnus lager en snøball med hendene sine. Pappa sier til Magnus: “Husk at snøballer kan være farlige. Ikke kast den på noen”Magnus svarer: “Neida, jeg skal ikke kaste snøballen på noen”. Hva er det pappaen til Magnus vil? \nA: Pappa vil at Magnus ikke skal kaste snøballen på noen. \nB: Pappa vil at Magnus skal kaste snøballen på Hanna.",
+        "emotion": "Magnus kaster snøballen og treffer Hanna. Pappa sier til Magnus: ”Så bra! Du kastet jo ikke snøballen”. Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 8
+    },
+    {
+        "want": "Pappa og Mia er i en lekebutikk. Mia får lov til å velge seg et kosedyr. Pappa sier til Mia: ”Mange av de store kosedyrene koster mange penger. Du kan velge deg et lite kosedyr”. Mia svarer: “Okei, jeg skal velge et lite kosedyr.” Hva er det pappaen til Mia vil? \nA: Pappa vil at Mia skal velge en liten bamse. \nB: Pappa vil at Mia skal velge en stor bamse.",
+        "emotion": "Mia velger et stort kosedyr som er dobbelt så stort som henne selv. Pappa sier til Mia: “Men du valgte jo ikke et lite kosedyr!” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 9
+    },
+    {
+        "want": "Mamma har laget ferdig Lukas sin matpakke til barnehagen. Mamma sier til Lukas: ”Her er matpakken din. Du kan ta med deg en dessert også, men det må være en som er sunn.” Lukas: “Okei, jeg skal ta med en sunn dessert.” Hva er det mammaen til Lukas vil? \nA: Mamma vil at Lukas skal velge en kjærlighet til dessert.\nB: Mamma vil at Lukas skal velge et eple til dessert.",
+        "emotion": "Lukas tar med seg et eple. Mamma sier til Lukas: ”Ja, det var en sunn dessert”. Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 10
+    },
+    {
+        "want": "Det er kveld og pappa skal legge Erik. Pappa sier til Erik: ”Det er allerede ganske sent. Du kan velge en bok vi skal lese, men den må være kort”. Erik svarer: ”Okei, jeg skal finne en kort bok.” Hva er det pappaen til Erik vil? \nA: Pappa vil at Erik skal velge en liten bok.\nB: Pappa vil at Erik skal velge en stor bok.",
+        "emotion": "Erik finner fram den lengste boken i bokhyllen. Pappa sier til Erik: ”Men det var ikke en kort bok, vel!” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 11
+    },
+    {
+        "want": "Mamma og Ronja skal i bursdag til mormor. Mamma sier til Ronja: ”La oss gjøre mormor glad! Gå og ta på deg den fine kjolen du har fått av henne.” Ronja svarer: ”Okei, jeg skal ta på meg den fine kjolen”. Hva er det mammaen til Ronja vil? \nA: Mamma vil at Ronja skal gå med de vanlige klærne sine. \nB: Mamma vil at Ronja skal gå med den nye kjolen.",
+        "emotion": "Ronja skifter ikke, men går i de vanlige klærne sine. Mamma sier til Ronja: ”Ja, det var jammen en fin kjole!” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original",
+        "item_id": 12
+    },
+    {
+        "want": "Emil leker på rommet sitt. Mamma kommer inn og sier: “Det er veldig rotete her! Du må rydde rommet ditt.” Emil svarer: “Okei, jeg skal rydde opp nå.” Hva er det Emil sin mamma vil?\nA: Mamma vil at Emil skal la lekene sine være på gulvet.\nB: Mamma vil at Emil skal putte lekene sine i en boks.",
+        "emotion": "Emil fortsetter å leke med bilene sine. Mamma sier til Emil: “Så flott. Du har jo ryddet opp!” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 13
+    },
+    {
+        "want": "Jonas spiller fotball i hagen. Pappa roper til ham: “Det er veldig sølete ute. Prøv å ikke bli så møkkete!” Jonas svarer: “Slapp av pappa, jeg skal ikke bli møkkete.” Hva er det Jonas sin pappa vil? \nA: Pappa vil at Jonas skal holde seg ren.\nB: Pappa vil at Jonas skal bli skitten.",
+        "emotion": "Jonas sparker ballen og snubler i en stor søledam. Pappa sier til Jonas: “Så dumt. Du ble veldig møkkete nå.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 14
+    },
+    {
+        "want": "Pappa og Emma har nettopp kommet hjem fra aketur og skal til å gå inn. Pappa sier til Emma: ”Skoene dine er fulle av snø. Ta dem av før du går inn i huset.” Emma svarer: ”Jada, jeg skal ta av skoene før jeg går inn”. Hva er det Emma sin pappa vil? \nA: Pappa vil at Emma skal gå inn med de skitne skoene sine. \nB: Pappa vil at Emma skal gå inn i sokkelesten.",
+        "emotion": "Emma tar av seg skoene og går inn i huset. Gulvet er tørt og fint. Pappa sier til Emma: “Så fint at du tok av deg skoene!” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 15
+    },
+    {
+        "want": "Nora er skitten på hendene etter å ha lekt ute. Mamma sier til Nora: “Maten er ferdig. Gå og vask hendene dine før du setter deg ved bordet.” Nora svarer: “Okei, jeg skal vaske hendene”. Hva er det Nora sin mamma vil? \nA: Mamma vil at Nora’s hender skal være rene. \nB: Mamma vil at Nora’s hender skal være skitne.",
+        "emotion": "Nora vasker ikke hendene sine. Mamma sier til Nora: “ Men du har jo ikke vasket hendene dine!”. Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 16
+    },
+    {
+        "want": "Henrik og lillesøsteren Ida leker med Lego. Ida prøver å bygge et tårn. Mamma sier til Henrik: “Det ser ut som Ida synes det er litt vanskelig å bygge det tårnet. Kanskje du kan hjelpe henne? Henrik sier: “Ja, jeg skal hjelpe Ida.” Hva er det mammaen til Henrik og Ida vil? \nA: Mamma vil at Henrik skal ødelegge tårnet. \nB: Mamma vil at Henrik skal hjelpe til med å bygge tårnet.",
+        "emotion": "Henrik fortsetter å bygge med sine egne legokolasser isteden. Mamma sier til Henrik: “Ja, der hjalp du, Ida, Henrik.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 17
+    },
+    {
+        "want": "Anne leker med en ball alene. Lillebroren hennes Elias vil gjerne være med på leken. Mamma sier til Anna: ”Elias vil også leke med ballen. Kan han få være med?” Anna svarer: “Ja, Elias kan få være med”Hva er det Anna og Elias sin mamma vil? \nA: Mamma vil at Anna skal leke sammen med Elias. \nB: Mamma vil at Anna skal leke alene med ballen.",
+        "emotion": "Anna kaster ballen til Elias og han kaster den tilbake til Anna. Mamma sier til Anna: “Så fint at Elias fikk være med, da!” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 18
+    },
+    {
+        "want": "Frida og vennen hennes Daniel leker med biler sammen. Mamma kommer inn med en stor sjokolade i hånden. Mamma sier til Frida: “Her er litt sjokolade. Du må dele den med Daniel.” Frida svarer: “Ja, jeg skal dele sjokoladen med Daniel.” Hva er det mammaen til Frida vil? \nA: Mamma vil at Frida skal spise hele sjokoladen alene. \nB: Mamma vil at Frida skal dele sjokoladen med Daniel.",
+        "emotion": "Frida spiser opp hele sjokoladen selv. Mamma sier til Frida: ”Så bra at du delte sjokoladen med Daniel, da!”. Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 19
+    },
+    {
+        "want": "Magnus og venninnen Hanna leker ute i snøen. Magnus lager en snøball med hendene sine. Pappa sier til Magnus: “Husk at snøballer kan være farlige. Ikke kast den på noen”Magnus svarer: “Neida, jeg skal ikke kaste snøballen på noen”. Hva er det pappaen til Magnus vil? \nA: Pappa vil at Magnus ikke skal kaste snøballen på noen. \nB: Pappa vil at Magnus skal kaste snøballen på Hanna.",
+        "emotion": "Magnus kaster snøballen og treffer Hanna. Pappa sier til Magnus: ”Så dumt! Du kastet jo snøballen”. Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 20
+    },
+    {
+        "want": "Pappa og Mia er i en lekebutikk. Mia får lov til å velge seg et kosedyr. Pappa sier til Mia: ”Mange av de store kosedyrene koster mange penger. Du kan velge deg et lite kosedyr”. Mia svarer: “Okei, jeg skal velge et lite kosedyr.” Hva er det pappaen til Mia vil? \nA: Pappa vil at Mia skal velge en liten bamse. \nB: Pappa vil at Mia skal velge en stor bamse.",
+        "emotion": "Mia velger et lite kosedyr som hun kan holde i én hånd. Pappa sier til Mia: “Så fint, du valgte et lite kosedyr!” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 21
+    },
+    {
+        "want": "Mamma har laget ferdig Lukas sin matpakke til barnehagen. Mamma sier til Lukas: ”Her er matpakken din. Du kan ta med deg en dessert også, men det må være en som er sunn.” Lukas: “Okei, jeg skal ta med en sunn dessert.” Hva er det mammaen til Lukas vil? \nA: Mamma vil at Lukas skal velge en kjærlighet til dessert.\nB: Mamma vil at Lukas skal velge et eple til dessert.",
+        "emotion": "Lukas tar med seg en kjærlighet. Mamma sier til Lukas: ”Ja, det var en sunn dessert”. Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 22
+    },
+    {
+        "want": "Det er kveld og pappa skal legge Erik. Pappa sier til Erik: ”Det er allerede ganske sent. Du kan velge en bok vi skal lese, men den må være kort”. Erik svarer: ”Okei, jeg skal finne en kort bok.” Hva er det pappaen til Erik vil? \nA: Pappa vil at Erik skal velge en liten bok.\nB: Pappa vil at Erik skal velge en stor bok.",
+        "emotion": "Erik finner fram den korteste boken i bokhyllen. Pappa sier til Erik: ”Ja, det var jammen en kort bok!” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 23
+    },
+    {
+        "want": "Mamma og Ronja skal i bursdag til mormor. Mamma sier til Ronja: ”La oss gjøre mormor glad! Gå og ta på deg den fine kjolen du har fått av henne.” Ronja svarer: ”Okei, jeg skal ta på meg den fine kjolen”. Hva er det mammaen til Ronja vil? \nA: Mamma vil at Ronja skal gå med de vanlige klærne sine. \nB: Mamma vil at Ronja skal gå med den nye kjolen.",
+        "emotion": "Ronja skifter ikke, men går i de vanlige klærne sine. Mamma sier til Ronja: ” Men det var vel ikke en fin kjole!” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 24
+    },
+    {
+        "want": "Emil leker på rommet sitt. Mamma kommer inn og sier: “Det er veldig rotete her! Du må rydde rommet ditt.” Emil svarer: “Okei, jeg skal rydde opp nå.” Hva er det Emil sin mamma vil?\nA: Mamma vil at Emil skal la lekene sine være på gulvet.\nB: Mamma vil at Emil skal putte lekene sine i en boks.",
+        "emotion": "Emil fortsetter å leke med bilene sine. Mamma sier til Emil: “Så dumt. Du har ikke ryddet opp.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 25
+    },
+    {
+        "want": "Jonas spiller fotball i hagen. Pappa roper til ham: “Det er veldig sølete ute. Prøv å ikke bli så møkkete!” Jonas svarer: “Slapp av pappa, jeg skal ikke bli møkkete.” Hva er det Jonas sin pappa vil? \nA: Pappa vil at Jonas skal holde seg ren.\nB: Pappa vil at Jonas skal bli skitten.",
+        "emotion": "Jonas sparker ballen, og passer på at han ikke snubler i all sølen. Pappa sier til Jonas: “Så bra. Du ble ikke noe møkkete nå.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 26
+    },
+    {
+        "want": "Pappa og Emma har nettopp kommet hjem fra aketur og skal til å gå inn. Pappa sier til Emma: ”Skoene dine er fulle av snø. Ta dem av før du går inn i huset.” Emma svarer: ”Jada, jeg skal ta av skoene før jeg går inn”. Hva er det Emma sin pappa vil? \nA: Pappa vil at Emma skal gå inn med de skitne skoene sine. \nB: Pappa vil at Emma skal gå inn i sokkelesten.",
+        "emotion": "Emma går inn i huset med skoene på. Det blir små dammer av snø på gulvet. Pappa sier til Emma: “Så fint at du tok av deg skoene!” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 27
+    },
+    {
+        "want": "Nora er skitten på hendene etter å ha lekt ute. Mamma sier til Nora: “Maten er ferdig. Gå og vask hendene dine før du setter deg ved bordet.” Nora svarer: “Okei, jeg skal vaske hendene”. Hva er det Nora sin mamma vil? \nA: Mamma vil at Nora’s hender skal være rene. \nB: Mamma vil at Nora’s hender skal være skitne.",
+        "emotion": "Nora vasker hendene sine. Mamma sier til Nora: “ Ja, nå har du vasket hendene dine!”. Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 28
+    },
+    {
+        "want": "Henrik og lillesøsteren Ida leker med Lego. Ida prøver å bygge et tårn. Mamma sier til Henrik: “Det ser ut som Ida synes det er litt vanskelig å bygge det tårnet. Kanskje du kan hjelpe henne? Henrik sier: “Ja, jeg skal hjelpe Ida.” Hva er det mammaen til Henrik og Ida vil? \nA: Mamma vil at Henrik skal ødelegge tårnet. \nB: Mamma vil at Henrik skal hjelpe til med å bygge tårnet.",
+        "emotion": "Henrik fortsetter å bygge med sine egne legokolasser isteden. Mamma sier til Henrik: “Men du hjalp jo ikke Ida, Henrik.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 29
+    },
+    {
+        "want": "Anne leker med en ball alene. Lillebroren hennes Elias vil gjerne være med på leken. Mamma sier til Anna: ”Elias vil også leke med ballen. Kan han få være med?” Anna svarer: “Ja, Elias kan få være med”Hva er det Anna og Elias sin mamma vil? \nA: Mamma vil at Anna skal leke sammen med Elias. \nB: Mamma vil at Anna skal leke alene med ballen.",
+        "emotion": "Anna fortsetter å leke med ballen alene. Mamma sier til Anna: “Så fint at Elias fikk være med, da!” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 30
+    },
+    {
+        "want": "Frida og vennen hennes Daniel leker med biler sammen. Mamma kommer inn med en stor sjokolade i hånden. Mamma sier til Frida: “Her er litt sjokolade. Du må dele den med Daniel.” Frida svarer: “Ja, jeg skal dele sjokoladen med Daniel.” Hva er det mammaen til Frida vil? \nA: Mamma vil at Frida skal spise hele sjokoladen alene. \nB: Mamma vil at Frida skal dele sjokoladen med Daniel.",
+        "emotion": "Frida spiser opp hele sjokoladen selv. Mamma sier til Frida: ”Men du delte jo ikke sjokoladen med Daniel!”. Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 31
+    },
+    {
+        "want": "Magnus og venninnen Hanna leker ute i snøen. Magnus lager en snøball med hendene sine. Pappa sier til Magnus: “Husk at snøballer kan være farlige. Ikke kast den på noen”Magnus svarer: “Neida, jeg skal ikke kaste snøballen på noen”. Hva er det pappaen til Magnus vil? \nA: Pappa vil at Magnus ikke skal kaste snøballen på noen. \nB: Pappa vil at Magnus skal kaste snøballen på Hanna.",
+        "emotion": "Magnus legger snøballen på bakken. Pappa sier til Magnus: ”Så bra! Du kastet jo ikke snøballen”. Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 32
+    },
+    {
+        "want": "Pappa og Mia er i en lekebutikk. Mia får lov til å velge seg et kosedyr. Pappa sier til Mia: ”Mange av de store kosedyrene koster mange penger. Du kan velge deg et lite kosedyr”. Mia svarer: “Okei, jeg skal velge et lite kosedyr.” Hva er det pappaen til Mia vil? \nA: Pappa vil at Mia skal velge en liten bamse. \nB: Pappa vil at Mia skal velge en stor bamse.",
+        "emotion": "Mia velger et stort kosedyr som er dobbelt så stort som henne selv. Pappa sier til Mia: “Så fint, du valgte et lite kosedyr!” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 33
+    },
+    {
+        "want": "Mamma har laget ferdig Lukas sin matpakke til barnehagen. Mamma sier til Lukas: ”Her er matpakken din. Du kan ta med deg en dessert også, men det må være en som er sunn.” Lukas: “Okei, jeg skal ta med en sunn dessert.” Hva er det mammaen til Lukas vil? \nA: Mamma vil at Lukas skal velge en kjærlighet til dessert.\nB: Mamma vil at Lukas skal velge et eple til dessert.",
+        "emotion": "Lukas tar med seg en kjærlighet. Mamma sier til Lukas: ”Men det er vel ikke en sunn dessert!”. Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 34
+    },
+    {
+        "want": "Det er kveld og pappa skal legge Erik. Pappa sier til Erik: ”Det er allerede ganske sent. Du kan velge en bok vi skal lese, men den må være kort”. Erik svarer: ”Okei, jeg skal finne en kort bok.” Hva er det pappaen til Erik vil? \nA: Pappa vil at Erik skal velge en liten bok.\nB: Pappa vil at Erik skal velge en stor bok.",
+        "emotion": "Erik finner fram den lengste boken i bokhyllen. Pappa sier til Erik: ”Ja, det var jammen en kort bok!” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 35
+    },
+    {
+        "want": "Mamma og Ronja skal i bursdag til mormor. Mamma sier til Ronja: ”La oss gjøre mormor glad! Gå og ta på deg den fine kjolen du har fått av henne.” Ronja svarer: ”Okei, jeg skal ta på meg den fine kjolen”. Hva er det mammaen til Ronja vil? \nA: Mamma vil at Ronja skal gå med de vanlige klærne sine. \nB: Mamma vil at Ronja skal gå med den nye kjolen.",
+        "emotion": "Ronja tar på seg den fine kjolen hun har fått av mormor. Mamma sier til Ronja: ”Ja, det var jammen en fin kjole!” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "",
+        "item_type": "original_with_new_condition",
+        "item_id": 36
+    },
+    {
+        "want": "Mamma har kjøpt en muffins til Anders på butikken. Mamma sier til Anders: “Muffinsen er til dessert. Du må vente med å spise den til etter middag.” Anders sier: “Okei, jeg skal vente med å spise muffinsen.” Hva er det mammaen til Anders vil?\nA: Mamma vil at Anders skal vente med å spise muffinsen.\nB: Mamma vil at Anders skal spise muffinsen nå.",
+        "emotion": "Anders spiser muffinsen før middag. Mamma sier til Anders: “Så dumt. Du ventet ikke med å spise muffinsen.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 37
+    },
+    {
+        "want": "Selma og lillebroren hennes Jonas leker ute i regnet. Mamma sier til Selma: “Husk at Jonas ikke har lyst til å bli våt. Ikke hopp i sølepyttene så du spruter på ham.” Selma svarer: “Okei, jeg skal ikke hoppe i sølepyttene.” Hva er det mammaen til Selma vil?\nA: Mamma vil at Selma skal hoppe i sølepyttene og sprute på Jonas.\nB: Mamma vil at Selma ikke skal hoppe i sølepyttene.",
+        "emotion": "Selma hopper i en sølepytt rett ved siden av Jonas, så han blir klissvåt. Mamma sier til Selma: “Det var dumt at du hoppet i sølepyttene.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 38
+    },
+    {
+        "want": "Stian og pappa er på butikken. Pappa sier til Stian: “Du kan kjøpe deg noe å spise på vei hjem, men det må være sunt.” Stian svarer: “okei, jeg skal velge noe sunt å spise”Hva er det pappaen til Stian vil?\nA: At Stian skal velge noe sunt å spise på vei hjem.\nB: At Stian skal velge noe usunt å spise på vei hjem.",
+        "emotion": "Stian velger seg ut en stor sjokoladeplate som han kan spise. Pappa sier til Stian: “Så dumt at du ikke valgte deg noe sunt å spise.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 39
+    },
+    {
+        "want": "Caroline gjør seg klar til å dra på skolen. Pappa sier: “Husk at du må gre håret ditt før du drar. Det er veldig bustete.” Caroline svarer: “Okei, jeg skal gre håret mitt.” Hva er det pappaen til Caroline vil?\nA: At hun skal dra på skolen med bustete hår.\nB: At hun skal dra på skolen med velstelt hår.",
+        "emotion": "Caroline grer ikke håret sitt. Pappa sier til Caroline: “Men du har jo ikke gredd håret ditt!” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 40
+    },
+    {
+        "want": "Josef spiser kveldsmat før han skal legge seg. Mamma sier til Josef: “Husk å rydde opp tallerkenen din når du er ferdig med å spise.” Josef svarer: “Okei, jeg skal rydde opp tallerkenen.” Hva er det mammaen til Josef vil?\nA: At Josef skal rydde opp tallerkenen sin.\nB: At Josef skal la tallerkenen være igjen på spisebordet.",
+        "emotion": "Josef Går rett på badet etter han har spist opp, og lar tallerkenen være igjen på spisebordet. Mamma sier til Josef: “Så dumt at du ikke ryddet tallerkenen din.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 41
+    },
+    {
+        "want": "Nina og mamma har kjøpt en gave til bestemor. Nina får velge en gavesløyfe de kan feste på gaven. Mamma sier til Nina: “De store sløyfene er veldig dyre. Du kan velge en liten sløyfe. Nina svarer: “Okei, jeg skal velge en liten sløyfe.” Hva er det mammaen til Nina vil?\nA: At Nina skal velge en stor sløyfe til gaven.\nB: At Nina skal velge en liten sløyfe til gaven.",
+        "emotion": "Nina velger den største sløyfen hun finner butikken. Mamma sier til Nina: “Så dumt. Det var ikke en liten sløyfe.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 42
+    },
+    {
+        "want": "Alexander og lillesøsteren hans Ingvild leker sammen. I stua. Alexander har lyst til å spille et sammen med pappa. Pappa sier til Alexander: “Ingvild må også få være med. Velg et lett spill som hun også kan være med på.”. Alexander svarer: “Okei, jeg skal velge et lett spill.” Hva er det pappaen til Alexander vil?\nA: Pappa vil at Alexander skal velge et lett spill.\nB: Pappa vil at Alexander skal velge et vanskelig spill.",
+        "emotion": "Alexander velger det vanskeligste spillet han finner. Pappa sier til Alexander: “Men det er vel ikke et lett spill som Ingvild kan være med på!” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 43
+    },
+    {
+        "want": "Jacob sitter og tegner ved spisebordet. Mamma sier til Jacob: “Nå er det snart middag. Du må rydde bort tegnesakene dine.” Jacob svarer: “Okei, jeg skal rydde opp tegnesakene mine.” Hva er det mammaen til Jacob vil?\nA: Mamma vil at Jacob skal la tegnesakene sine være på spisebordet.\nB: Mamma vil at Jacob skal rydde bort tegnesakene sine.",
+        "emotion": "Jacob rydder ikke bort tegnesakene sine, men fortsetter å tegne. Mamma sier til Jacob: “Du har ikke ryddet bort tegnesakene dine, jo.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 44
+    },
+    {
+        "want": "Laura gjør lekser på rommet sitt. Pappa sier til Laura: “Du kan få leke ute etterpå, men du må gjøre ferdig leksene først.” Laura svarer: “Okei, jeg skal gjøre ferdig leksene mine.” Hva er det pappaen til Laura vil?\nA: Pappa vil at Laura skal gjøre ferdig leksene sine før hun leker.\nB: Pappa vil at Laura skal leke uten å ha gjort ferdig leksene sine.",
+        "emotion": "Laura løper ut for å leke før hun har gjort ferdig leksene sine. Pappa sier til Laura: “Men du ble jo ikke ferdig med leksene dine før du begynte å leke.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 45
+    },
+    {
+        "want": "Christian har vært på fotballtrening og skal til å gå i dusjen. Pappa sier til Christian: “Treningstøyet ditt lukter vondt. Husk å legge det i skittentøyskurven når du er ferdig i dusjen.”. Christian svarer: “Okei, jeg skal legge treningstøyet i skittentøyskurven.” Hva er det pappaen til Christian vil?\nA: Pappa vil at Christian skal la treningstøyet ligge på gulvet.\nB: Pappa vil at Christian skal legge treningstøyet i skittentøyskurven.",
+        "emotion": "Christian lar treningstøyet ligge på gulvet etter at han har dusjet. Pappa sier til Christian: “Så dumt at du ikke la treningstøyet ditt i skittentøyskurven.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 46
+    },
+    {
+        "want": "Mamma har kjørt Sophie og lillesøsteren hennes Mia til skolen. Mamma sier til Sophie: “Husk å vent på Mia etter skolen er ferdig, så dere kan ta følge sammen hjem.” Sophie svarer: “Ja, jeg skal vente på Mia.” Hva er det mammaen til Sophie vil?\nA: Mamma vil at Sophie ta følge med Mia hjem fra skolen.\nB: Mamma vil at Sophie skal gå hjem fra skolen uten Mia.",
+        "emotion": "Sophie venter ikke på Mia etter skolen, og går hjem alene. Mamma sier til Sophie: “Det var dumt at du ikke tok følge med Mia hjem.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 47
+    },
+    {
+        "want": "Oliver pakker skolesekken sin. “Mamma sier til Oliver: “Du kan ta med deg en kosebamse, men ta med deg en av de små.” Oliver svarer: “Okei, jeg skal ta med en liten bamse.” Hva er det mammaen til Oliver vil?\nA: Mamma vil at Oliver skal ta med en stor bamse på skolen.\nB: Mamma vil at Oliver skal ta med en liten bamse på skolen.",
+        "emotion": "Oliver pakker den største bamsen han har, som så vidt får plass i sekken. Mamma sier til Oliver: “Det var ikke en liten bamse!” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 48
+    },
+    {
+        "want": "Adam leker med biler i stua. Pappa sier til Oliver: “Nå skal vi snart få gjester. Du må rydde vekk bilene dine.” Adam svarer: “Okei, jeg skal rydde vekk bilene.” Hva er det pappaen til Adam vil?\nA: Pappa vil at Adam skal rydde vekk bilene sine.\nB: Pappa vil at Adam skal fortsette å leke med biler.",
+        "emotion": "Adam rydder ikke bilene, men fortsetter å leke. Pappa sier til Adam: “Du har jo ikke ryddet opp bilene dine.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 49
+    },
+    {
+        "want": "Lisa og lillebroren hennes Julian hopper på trampolinen sammen. Pappa sier til Lisa: “Husk at Julian kan få vondt om du hopper høyt. Hopp forsiktig når du hopper sammen med Julian.”. Lisa svarer: “Okei, jeg skal ikke hoppe høyt.” Hva er det pappaen til Lisa vil?\nA: Pappa vil at Lisa skal hoppe så høyt hun kan.\nB: Pappa vil at Lisa skal hoppe forsiktig.",
+        "emotion": "Lisa hopper så hardt hun kan, så Julian spretter høyt. Pappa sier til Lisa: “Nå hoppa du ikke forsiktig.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 50
+    },
+    {
+        "want": "William og mamma er ute og aker. Mamma sier til William: “Den store bakken er veldig isete og bratt. Du kan bare ake i de små bakkene.” William svarer: “Okei, jeg skal bare ake i de små bakkene.” Hva er det mammaen til William vil?\nA: Mamma vil at William bare skal ake i de små bakkene.\nB: Mamma vil at William skal ake i den store bakken.",
+        "emotion": "William tar i fart og aker ned den store bakken. Mamma sier til William: “Så dumt. Du akte ikke bare i den store bakken.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 51
+    },
+    {
+        "want": "Camilla og pappa er på biltur. Camilla ser på videoer på iPaden. Pappa sier til Camilla: “Husk at du blir bilsyk. Du kan bare se på en video til.” Camilla svarer: “Okei, jeg skal bare se på en video til.” Hva er det pappaen til Camilla vil?\nA: Pappa vil at Camilla skal se på mange videoer.\nB: Pappa vil at Camilla bare skal se på en video til.",
+        "emotion": "Camilla ser på fem videoer til. Pappa sier til Camilla: “Så dumt. Du så ikke bare på en video til.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 52
+    },
+    {
+        "want": "Johannes skal snart gjøre seg klar for å sove. Pappa sier til Johannes: “Jeg kommer og sier god natt om fem minutter. Husk å pusse tennene dine før du legger deg.” Johannes svarer: “Jada, jeg skal huske å pusse tenner.” Hva er det pappaen til Johannes vil?\nA: Pappa vil at Johannes skal pusse tenner før han legger seg.\nB: Pappa vil at Johannes skal legge seg uten å pusse tenner.",
+        "emotion": "Johannes pusser ikke tennene sine, men går rett til sengs. Pappa sier til Johannes: “Du husket jo ikke å pusse tennene dine!” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 53
+    },
+    {
+        "want": "Karl og vennen hans Mira har vannkrig i hagen med vannballonger. Mamma sier til Karl: “Husk at døren til stua er åpen. Pass på så det ikke kommer vann inn. Karl svarer: “Okei, vi skal passe på så det ikke kommer vann inn.” Hva er det mammaen til Karl vil?\nA: Mamma vil at Karl ikke skal kaste vannballonger inn.\nB: Mamma vil at Karl skal kaste vannballonger inn.",
+        "emotion": "Karl kaster en vannballong gjennom stuedøra, og hele stuegulvet blir vått. Mamma sier til Karl: “Det var dumt. Nå ble det veldig vått inne.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 54
+    },
+    {
+        "want": "Miriam skal pakke kofferten sin til ferien. Pappa sier til Miriam: “Husk å ikke pakke for mange ting. Da blir kofferten din veldig tung.” Miriam svarer: “Okei, jeg skal ikke pakke for mye.” Hva er det pappaen til Miriam vil?\nA: Pappa vil at Miriam ikke skal pakke for mye.\nB: Pappa vil at Miriam skal pakke så mange ting hun kan.",
+        "emotion": "Miriam pakker med seg så mange leker hun finner, og klarer nesten ikke å løfte kofferten sin. Pappa sier til Miriam: “Men du har jo pakket alt for mye!” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 55
+    },
+    {
+        "want": "Oskar spiller TV-spill, mens lillebroren hans Fredrik ser på. Mamma sier til Oskar: “Nå har du spilt lenge. Etter denne runden er det Fredrik sin tur.” Oskar svarer: “Jada, Fredrik skal få spille etter denne runden.” Hva er det mammaen til Oskar vil?\nA: Mamma vil at Oskar skal fortsette å spille.\nB: Mamma vil at Oskar skal la Fredrik få spille.",
+        "emotion": "Oskar spiller mange runder, uten at Fredrik får spille. Mamma sier til Oskar: “Så dumt. Du lot ikke Fredrik også få spille.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 56
+    },
+    {
+        "want": "Heidi skal feire bursdagen sin og vil invitere vennene sine. Mamma sier til Heidi: “Her er invitasjonene til bursdagen din. Husk å dele dem ut på skolen i dag.” Heidi varer: “Jada, jeg skal huske å dele ut invitasjonene.” Hva er det mammaen til Heidi vil?\nA: Mamma vil at Heidi skal dele ut invitasjonene på skolen.\nB: Mamma vil at Heidi ikke skall dele ut invitasjonene på skolen.",
+        "emotion": "Heidi glemmer å dele ut invitasjonene, og har dem med hjem igjen i sekken. Mamma sier til Heidi: “Det var dumt at du ikke husket å dele ut invitasjonene.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 57
+    },
+    {
+        "want": "Richard har lyst til å lage en kake uten hjelp. Pappa sier til Richard: “Husk å ha oppi bakepulver, hvis ikke hever ikke kaken.” Richard svarer: “Jada, jeg skal huske å ha oppi bakepulver.” Hva er det pappaen til Richard vil?\nA: Pappa vi at Richard ikke skal ha oppi bakepulver.\nB: Pappa vil at Richard skal huske å ha oppi bakepulver.",
+        "emotion": "Richard har ikke oppi bakepulver, og kaken blir flat. Pappa sier til Richard: “Så dumt at du ikke husket å ha oppi bakepulveret.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 58
+    },
+    {
+        "want": "Marie har fått ny lego og gleder seg til å bygge den. Pappa sier til Marie: “Husk å bare åpne én og én pose. Hvis du åpner alle samtidig, blir det vanskelig å finne riktige klosser.” Marie svarer: “Jada, jeg skal bare åpne én pose av gangen.” Hva er det pappaen til Marie vil?\nA: Pappa vil at Marie skal åpne én og én pose.\nB: Pappa vil at Marie skal åpne alle posene på én gang.",
+        "emotion": "Marie åpner alle posene og blander klossene sammen. Pappa sier til Marie: “Men det var ikke bare én pose av gangen, vel!” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 59
+    },
+    {
+        "want": "Bendik vil ut og leke i det fine været. Mamma sier til Bendik: “Husk å ta på deg solkrem før du går ut, så du ikke blir solbrent.” Bendik svarer: “Okei, jeg skal huske å ta på meg solkrem. Hva er det mammaen til Bendik vil?\nA: Mamma vil at Bendik skal gå ut uten solkrem.\nB: Mamma vil at Bendik skal ta på seg solkrem før han går ut.",
+        "emotion": "Bendik tar ikke på solkrem og er rød i ansiktet når han kommer inn igjen. Mamma sier til Bendik: “Så dumt. Du husket ikke å ta på deg solkrem.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "criticism",
+        "item_type": "new",
+        "item_id": 60
+    },
+    {
+        "want": "Mamma har kjøpt en muffins til Anders på butikken. Mamma sier til Anders: “Muffinsen er til dessert. Du må vente med å spise den til etter middag.” Anders sier: “Okei, jeg skal vente med å spise muffinsen.” Hva er det mammaen til Anders vil?\nA: Mamma vil at Anders skal vente med å spise muffinsen.\nB: Mamma vil at Anders skal spise muffinsen nå.",
+        "emotion": "Anders spiser muffinsen før middag. Mamma sier til Anders: “Så bra! Du klarte å vente med å spise muffinsen.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 61
+    },
+    {
+        "want": "Selma og lillebroren hennes Jonas leker ute i regnet. Mamma sier til Selma: “Husk at Jonas ikke har lyst til å bli våt. Ikke hopp i sølepyttene så du spruter på ham.” Selma svarer: “Okei, jeg skal ikke hoppe i sølepyttene.” Hva er det mammaen til Selma vil?\nA: Mamma vil at Selma skal hoppe i sølepyttene og sprute på Jonas.\nB: Mamma vil at Selma ikke skal hoppe i sølepyttene.",
+        "emotion": "Selma hopper i en sølepytt rett ved siden av Jonas, så han blir klissvåt. Mamma sier til Selma: “God jobba, du hoppet ikke i sølepyttene.” Hvordan har mamma det inni seg? Er hun sint eller glad? Stian og pappa er på butikken. Pappa sier til Stian: “Du kan kjøpe deg noe å spise på vei hjem, men det må være sunt.” Stian svarer: “okei, jeg skal velge noe sunt å spise”Hva er det pappaen til Stian vil?\nA: At Stian skal velge noe sunt å spise på vei hjem.\nB: At Stian skal velge noe usunt å spise på vei hjem. Stian velger seg ut en stor sjokoladeplate som han kan spise. Pappa sier til Stian: “Så bra at du valgte deg noe sunt å spise.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 62
+    },
+    {
+        "want": "Stian og pappa er på butikken. Pappa sier til Stian: “Du kan kjøpe deg noe å spise på vei hjem, men det må være sunt.” Stian svarer: “okei, jeg skal velge noe sunt å spise”Hva er det pappaen til Stian vil?\nA: At Stian skal velge noe sunt å spise på vei hjem.\nB: At Stian skal velge noe usunt å spise på vei hjem.",
+        "emotion": "Stian velger seg ut en stor sjokoladeplate som han kan spise. Pappa sier til Stian: “Så bra at du valgte deg noe sunt å spise.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 63
+    },
+    {
+        "want": "Caroline gjør seg klar til å dra på skolen. Pappa sier: “Husk at du må gre håret ditt før du drar. Det er veldig bustete.” Caroline svarer: “Okei, jeg skal gre håret mitt.” Hva er det pappaen til Caroline vil?\nA: At hun skal dra på skolen med bustete hår.\nB: At hun skal dra på skolen med velstelt hår.",
+        "emotion": "Caroline grer ikke håret sitt. Pappa sier til Caroline: “Så fint at du har gredd håret ditt.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 64
+    },
+    {
+        "want": "Josef spiser kveldsmat før han skal legge seg. Mamma sier til Josef: “Husk å rydde opp tallerkenen din når du er ferdig med å spise.” Josef svarer: “Okei, jeg skal rydde opp tallerkenen.” Hva er det mammaen til Josef vil?\nA: At Josef skal rydde opp tallerkenen sin.\nB: At Josef skal la tallerkenen være igjen på spisebordet.",
+        "emotion": "Josef går rett på badet etter han har spist opp, og lar tallerkenen være igjen på spisebordet. Mamma sier til Josef: “Så bra at du ryddet tallerkenen din.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 65
+    },
+    {
+        "want": "Nina og mamma har kjøpt en gave til bestemor. Nina får velge en gavesløyfe de kan feste på gaven. Mamma sier til Nina: “De store sløyfene er veldig dyre. Du kan velge en liten sløyfe. Nina svarer: “Okei, jeg skal velge en liten sløyfe.” Hva er det mammaen til Nina vil?\nA: At Nina skal velge en stor sløyfe til gaven.\nB: At Nina skal velge en liten sløyfe til gaven.",
+        "emotion": "Nina velger den største sløyfen hun finner butikken. Mamma sier til Nina: “Godt jobba. Det var en liten sløyfe.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 66
+    },
+    {
+        "want": "Alexander og lillesøsteren hans Ingvild leker sammen. I stua. Alexander har lyst til å spille et sammen med pappa. Pappa sier til Alexander: “Ingvild må også få være med. Velg et lett spill som hun også kan være med på.”. Alexander svarer: “Okei, jeg skal velge et lett spill.” Hva er det pappaen til Alexander vil?\nA: Pappa vil at Alexander skal velge et lett spill.\nB: Pappa vil at Alexander skal velge et vanskelig spill.",
+        "emotion": "Alexander velger det vanskeligste spillet han finner. Pappa sier til Alexander: “Så bra, du valgte et lett spill som Ingvild kan være med på.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 67
+    },
+    {
+        "want": "Jacob sitter og tegner ved spisebordet. Mamma sier til Jacob: “Nå er det snart middag. Du må rydde bort tegnesakene dine.” Jacob svarer: “Okei, jeg skal rydde opp tegnesakene mine.” Hva er det mammaen til Jacob vil?\nA: Mamma vil at Jacob skal la tegnesakene sine være på spisebordet.\nB: Mamma vil at Jacob skal rydde bort tegnesakene sine.",
+        "emotion": "Jacob rydder ikke bort tegnesakene sine, men fortsetter å tegne. Mamma sier til Jacob: “Så bra. Du har ryddet bort tegnesakene dine.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 68
+    },
+    {
+        "want": "Laura gjør lekser på rommet sitt. Pappa sier til Laura: “Du kan få leke ute etterpå, men du må gjøre ferdig leksene først.” Laura svarer: “Okei, jeg skal gjøre ferdig leksene mine.” Hva er det pappaen til Laura vil?\nA: Pappa vil at Laura skal gjøre ferdig leksene sine før hun leker.\nB: Pappa vil at Laura skal leke uten å ha gjort ferdig leksene sine.",
+        "emotion": "Laura løper ut for å leke før hun har gjort ferdig leksene sine. Pappa sier til Laura: “Så bra at du ble ferdig med leksene dine før du begynte å leke.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 69
+    },
+    {
+        "want": "Christian har vært på fotballtrening og skal til å gå i dusjen. Pappa sier til Christian: “Treningstøyet ditt lukter vondt. Husk å legge det i skittentøyskurven når du er ferdig i dusjen.”. Christian svarer: “Okei, jeg skal legge treningstøyet i skittentøyskurven.” Hva er det pappaen til Christian vil?\nA: Pappa vil at Christian skal la treningstøyet ligge på gulvet.\nB: Pappa vil at Christian skal legge treningstøyet i skittentøyskurven.",
+        "emotion": "Christian lar treningstøyet ligge på gulvet etter at han har dusjet. Pappa sier til Christian: “Så bra at du la treningstøyet ditt i skittentøyskurven.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 70
+    },
+    {
+        "want": "Mamma har kjørt Sophie og lillesøsteren hennes Mia til skolen. Mamma sier til Sophie: “Husk å vent på Mia etter skolen er ferdig, så dere kan ta følge sammen hjem.” Sophie svarer: “Ja, jeg skal vente på Mia.” Hva er det mammaen til Sophie vil?\nA: Mamma vil at Sophie ta følge med Mia hjem fra skolen.\nB: Mamma vil at Sophie skal gå hjem fra skolen uten Mia.",
+        "emotion": "Sophie venter ikke på Mia etter skolen, og går hjem alene. Mamma sier til Sophie: “Så bra, du tok følge med Mia hjem.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 71
+    },
+    {
+        "want": "Oliver pakker skolesekken sin. “Mamma sier til Oliver: “Du kan ta med deg en kosebamse, men ta med deg en av de små.” Oliver svarer: “Okei, jeg skal ta med en liten bamse.” Hva er det mammaen til Oliver vil?\nA: Mamma vil at Oliver skal ta med en stor bamse på skolen.\nB: Mamma vil at Oliver skal ta med en liten bamse på skolen.",
+        "emotion": "Oliver pakker den største bamsen han har, som så vidt får plass i sekken. Mamma sier til Oliver: “Så fint. Det var en liten bamse.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 72
+    },
+    {
+        "want": "Adam leker med biler i stua. Pappa sier til Oliver: “Nå skal vi snart få gjester. Du må rydde vekk bilene dine.” Adam svarer: “Okei, jeg skal rydde vekk bilene.” Hva er det pappaen til Adam vil?\nA: Pappa vil at Adam skal rydde vekk bilene sine.\nB: Pappa vil at Adam skal fortsette å leke med biler.",
+        "emotion": "Adam rydder ikke bilene, men fortsetter å leke. Pappa sier til Adam: “Så fint at du ryddet bilene dine.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 73
+    },
+    {
+        "want": "Lisa og lillebroren hennes Julian hopper på trampolinen sammen. Pappa sier til Lisa: “Husk at Julian kan få vondt om du hopper høyt. Hopp forsiktig når du hopper sammen med Julian.”. Lisa svarer: “Okei, jeg skal ikke hoppe høyt.” Hva er det pappaen til Lisa vil?\nA: Pappa vil at Lisa skal hoppe så høyt hun kan.\nB: Pappa vil at Lisa skal hoppe forsiktig.",
+        "emotion": "Lisa hopper så hardt hun kan, så Julian spretter høyt. Pappa sier til Lisa: “Bra. Nå hoppa du forsiktig.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 74
+    },
+    {
+        "want": "William og mamma er ute og aker. Mamma sier til William: “Den store bakken er veldig isete og bratt. Du kan bare ake i de små bakkene.” William svarer: “Okei, jeg skal bare ake i de små bakkene.” Hva er det mammaen til William vil?\nA: Mamma vil at William skal ake i de små bakkene.\nB: Mamma vil at William skal ake i den store bakken.",
+        "emotion": "William tar i fart og aker ned den store bakken. Mamma sier til William: “Så bra. Du akte ikke i den store bakken. Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 75
+    },
+    {
+        "want": "Camilla og pappa er på biltur. Camilla ser på videoer på iPaden. Pappa sier til Camilla: “Husk at du blir bilsyk. Du kan bare se på en video til.” Camilla svarer: “Okei, jeg skal bare se på en video til.” Hva er det pappaen til Camilla vil?\nA: Pappa vil at Camilla skal se på mange videoer.\nB: Pappa vil at Camilla bare skal se på en video til.",
+        "emotion": "Camilla ser på fem videoer til. Pappa sier til Camilla: “Godt jobba! Du så bare på en video til.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 76
+    },
+    {
+        "want": "Johannes skal snart gjøre seg klar for å sove. Pappa sier til Johannes: “Jeg kommer og sier god natt om fem minutter. Husk å pusse tennene dine før du legger deg.” Johannes svarer: “Jada, jeg skal huske å pusse tenner.” Hva er det pappaen til Johannes vil?\nA: Pappa vil at Johannes skal pusse tenner før han legger seg.\nB: Pappa vil at Johannes skal legge seg uten å pusse tenner.",
+        "emotion": "Johannes pusser ikke tennene sine, men går rett til sengs. Pappa sier til Johannes: “Så bra. Du husket jo å pusse tennene dine.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 77
+    },
+    {
+        "want": "Karl og vennen hans Mira har vannkrig i hagen med vannballonger. Mamma sier til Karl: “Husk at døren til stua er åpen. Pass på så det ikke kommer vann inn. Karl svarer: “Okei, vi skal passe på så det ikke kommer vann inn.” Hva er det mammaen til Karl vil?\nA: Mamma vil at Karl ikke skal kaste vannballonger inn.\nB: Mamma vil at Karl skal kaste vannballonger inn.",
+        "emotion": "Karl kaster en vannballong gjennom stuedøra, og hele stuegulvet blir vått. Mamma sier til Karl: “Så bra. Du passet på så det ikke kom vann inn.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 78
+    },
+    {
+        "want": "Miriam skal pakke kofferten sin til ferien. Pappa sier til Miriam: “Husk å ikke pakke for mange ting. Da blir kofferten din veldig tung.” Miriam svarer: “Okei, jeg skal ikke pakke for mye.” Hva er det pappaen til Miriam vil?\nA: Pappa vil at Miriam ikke skal pakke for mye.\nB: Pappa vil at Miriam skal pakke så mange ting hun kan.",
+        "emotion": "Miriam pakker med seg så mange leker hun finner, og klarer nesten ikke å løfte kofferten sin. Pappa sier til Miriam: “Bra. Du husket jo å ikke pakke for mye.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 79
+    },
+    {
+        "want": "Oskar spiller TV-spill, mens lillebroren hans Fredrik ser på. Mamma sier til Oskar: “Nå har du spilt lenge. Etter denne runden er det Fredrik sin tur.” Oskar svarer: “Jada, Fredrik skal få spille etter denne runden.” Hva er det mammaen til Oskar vil?\nA: Mamma vil at Oskar skal fortsette å spille.\nB: Mamma vil at Oskar skal la Fredrik få spille.",
+        "emotion": "Oskar spiller mange runder, uten at Fredrik får spille. Mamma sier til Oskar: “Så fint. Du lot Fredrik også få spille.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 80
+    },
+    {
+        "want": "Heidi skal feire bursdagen sin og vil invitere vennene sine. Mamma sier til Heidi: “Her er invitasjonene til bursdagen din. Husk å dele dem ut på skolen i dag.” Heidi varer: “Jada, jeg skal huske å dele ut invitasjonene.” Hva er det mammaen til Heidi vil?\nA: Mamma vil at Heidi skal dele ut invitasjonene på skolen.\nB: Mamma vil at Heidi ikke skall dele ut invitasjonene på skolen.",
+        "emotion": "Heidi glemmer å dele ut invitasjonene, og har dem med hjem igjen i sekken. Mamma sier til Heidi: “Så bra. Du husket å dele ut invitasjonene.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 81
+    },
+    {
+        "want": "Richard har lyst til å lage en kake uten hjelp. Pappa sier til Richard: “Husk å ha oppi bakepulver, hvis ikke hever ikke kaken.” Richard svarer: “Jada, jeg skal huske å ha oppi bakepulver.” Hva er det pappaen til Richard vil?\nA: Pappa vi at Richard ikke skal ha oppi bakepulver.\nB: Pappa vil at Richard skal huske å ha oppi bakepulver.",
+        "emotion": "Richard har ikke oppi bakepulver, og kaken blir flat. Pappa sier til Richard: “Godt jobba. Du husket å ha oppi bakepulveret.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 82
+    },
+    {
+        "want": "Marie har fått ny lego og gleder seg til å bygge den. Pappa sier til Marie: “Husk å bare åpne én og én pose. Hvis du åpner alle samtidig, blir det vanskelig å finne riktige klosser.” Marie svarer: “Jada, jeg skal bare åpne én pose av gangen.” Hva er det pappaen til Marie vil?\nA: Pappa vil at Marie skal åpne én og én pose.\nB: Pappa vil at Marie skal åpne alle posene på én gang.",
+        "emotion": "Marie åpner alle posene og blander klossene sammen. Pappa sier til Marie: “Så fint. Du åpnet bare én pose av gangen.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 83
+    },
+    {
+        "want": "Bendik vil ut og leke i det fine været. Mamma sier til Bendik: “Husk å ta på deg solkrem før du går ut, så du ikke blir solbrent.” Bendik svarer: “Okei, jeg skal huske å ta på meg solkrem. Hva er det mammaen til Bendik vil?\nA: Mamma vil at Bendik skal gå ut uten solkrem.\nB: Mamma vil at Bendik skal ta på seg solkrem før han går ut.",
+        "emotion": "Bendik tar ikke på solkrem og er rød i ansiktet når han kommer inn igjen. Mamma sier til Bendik: “Så fint. Du husket å ta på deg solkrem.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "irony",
+        "item_type": "new",
+        "item_id": 84
+    },
+    {
+        "want": "Mamma har kjøpt en muffins til Anders på butikken. Mamma sier til Anders: “Muffinsen er til dessert. Du må vente med å spise den til etter middag.” Anders sier: “Okei, jeg skal vente med å spise muffinsen.” Hva er det mammaen til Anders vil?\nA: Mamma vil at Anders skal vente med å spise muffinsen.\nB: Mamma vil at Anders skal spise muffinsen nå.",
+        "emotion": "Anders venter med å spise muffinsen til etter middag. Mamma sier til Anders: “Så bra! Du klarte å vente med å spise muffinsen.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 85
+    },
+    {
+        "want": "Selma og lillebroren hennes Jonas leker ute i regnet. Mamma sier til Selma: “Husk at Jonas ikke har lyst til å bli våt. Ikke hopp i sølepyttene så du spruter på ham.” Selma svarer: “Okei, jeg skal ikke hoppe i sølepyttene.” Hva er det mammaen til Selma vil?\nA: Mamma vil at Selma skal hoppe i sølepyttene og sprute på Jonas.\nB: Mamma vil at Selma ikke skal hoppe i sølepyttene.",
+        "emotion": "Selma passer på å ikke hoppe i sølepyttene så Jonas blir våt. Mamma sier til Selma: “God jobba, du hoppet ikke i sølepyttene.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 86
+    },
+    {
+        "want": "Stian og pappa er på butikken. Pappa sier til Stian: “Du kan kjøpe deg noe å spise på vei hjem, men det må være sunt.” Stian svarer: “okei, jeg skal velge noe sunt å spise”Hva er det pappaen til Stian vil?\nA: At Stian skal velge noe sunt å spise på vei hjem.\nB: At Stian skal velge noe usunt å spise på vei hjem.",
+        "emotion": "Stian velger seg ut en banan som han kan spise. Pappa sier til Stian: “Så bra at du valgte deg noe sunt å spise.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 87
+    },
+    {
+        "want": "Caroline gjør seg klar til å dra på skolen. Pappa sier: “Husk at du må gre håret ditt før du drar. Det er veldig bustete.” Caroline svarer: “Okei, jeg skal gre håret mitt.” Hva er det pappaen til Caroline vil?\nA: At hun skal dra på skolen med bustete hår.\nB: At hun skal dra på skolen med velstelt hår.",
+        "emotion": "Caroline grer håret sitt. Pappa sier til Caroline: “Så fint at du har gredd håret ditt.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 88
+    },
+    {
+        "want": "Josef spiser kveldsmat før han skal legge seg. Mamma sier til Josef: “Husk å rydde opp tallerkenen din når du er ferdig med å spise.” Josef svarer: “Okei, jeg skal rydde opp tallerkenen.” Hva er det mammaen til Josef vil?\nA: At Josef skal rydde opp tallerkenen sin.\nB: At Josef skal la tallerkenen være igjen på spisebordet.",
+        "emotion": "Josef rydder tallerkenen sin før han går på badet. Mamma sier til Josef: “Så bra at du ryddet tallerkenen din.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 89
+    },
+    {
+        "want": "Nina og mamma har kjøpt en gave til bestemor. Nina får velge en gavesløyfe de kan feste på gaven. Mamma sier til Nina: “De store sløyfene er veldig dyre. Du kan velge en liten sløyfe. Nina svarer: “Okei, jeg skal velge en liten sløyfe.” Hva er det mammaen til Nina vil?\nA: At Nina skal velge en stor sløyfe til gaven.\nB: At Nina skal velge en liten sløyfe til gaven.",
+        "emotion": "Nina velger en liten sløyfe hun finner butikken. Mamma sier til Nina: “Godt jobba. Det var en liten sløyfe.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 90
+    },
+    {
+        "want": "Alexander og lillesøsteren hans Ingvild leker sammen i stua. Alexander har lyst til å spille et sammen med pappa. Pappa sier til Alexander: “Ingvild må også få være med. Velg et lett spill som hun også kan være med på.”. Alexander svarer: “Okei, jeg skal velge et lett spill.” Hva er det pappaen til Alexander vil?\nA: Pappa vil at Alexander skal velge et lett spill.\nB: Pappa vil at Alexander skal velge et vanskelig spill.",
+        "emotion": "Alexander velger et lett spill han og Ingvild har spilt før. Pappa sier til Alexander: “Så bra, du valgte et lett spill som Ingvild kan være med på.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 91
+    },
+    {
+        "want": "Jacob sitter og tegner ved spisebordet. Mamma sier til Jacob: “Nå er det snart middag. Du må rydde bort tegnesakene dine.” Jacob svarer: “Okei, jeg skal rydde opp tegnesakene mine.” Hva er det mammaen til Jacob vil?\nA: Mamma vil at Jacob skal la tegnesakene sine være på spisebordet.\nB: Mamma vil at Jacob skal rydde bort tegnesakene sine.",
+        "emotion": "Jacob rydder tegnesakene sine og legger dem på rommet sitt. Mamma sier til Jacob: “Så bra. Du har ryddet bort tegnesakene dine.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 92
+    },
+    {
+        "want": "Laura gjør lekser på rommet sitt. Pappa sier til Laura: “Du kan få leke ute etterpå, men du må gjøre ferdig leksene først.” Laura svarer: “Okei, jeg skal gjøre ferdig leksene mine.” Hva er det pappaen til Laura vil?\nA: Pappa vil at Laura skal gjøre ferdig leksene sine før hun leker.\nB: Pappa vil at Laura skal leke uten å ha gjort ferdig leksene sine.",
+        "emotion": "Laura gjør ferdig leksene sine før hun løper ut for å leke. Pappa sier til Laura: “Så bra at du ble ferdig med leksene dine før du begynte å leke.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 93
+    },
+    {
+        "want": "Christian har vært på fotballtrening og skal til å gå i dusjen. Pappa sier til Christian: “Treningstøyet ditt lukter vondt. Husk å legge det i skittentøyskurven når du er ferdig i dusjen.”. Christian svarer: “Okei, jeg skal legge treningstøyet i skittentøyskurven.” Hva er det pappaen til Christian vil?\nA: Pappa vil at Christian skal la treningstøyet ligge på gulvet.\nB: Pappa vil at Christian skal legge treningstøyet i skittentøyskurven.",
+        "emotion": "Christian legger treningstøyet sitt i skittentøyskurven etter at han har dusjet. Pappa sier til Christian: “Så bra at du la treningstøyet ditt i skittentøyskurven.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 94
+    },
+    {
+        "want": "Mamma har kjørt Sophie og lillesøsteren hennes Mia til skolen. Mamma sier til Sophie: “Husk å vent på Mia etter skolen er ferdig, så dere kan ta følge sammen hjem.” Sophie svarer: “Ja, jeg skal vente på Mia.” Hva er det mammaen til Sophie vil?\nA: Mamma vil at Sophie ta følge med Mia hjem fra skolen.\nB: Mamma vil at Sophie skal gå hjem fra skolen uten Mia.",
+        "emotion": "Sophie venter på Mia etter skolen, og de to går hjem sammen. Mamma sier til Sophie: “Så bra, du tok følge med Mia hjem.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 95
+    },
+    {
+        "want": "Oliver pakker skolesekken sin. Mamma sier til Oliver: “Du kan ta med deg en kosebamse, men ta med deg en av de små.” Oliver svarer: “Okei, jeg skal ta med en liten bamse.” Hva er det mammaen til Oliver vil?\nA: Mamma vil at Oliver skal ta med en stor bamse på skolen.\nB: Mamma vil at Oliver skal ta med en liten bamse på skolen.",
+        "emotion": "Oliver pakker en av de minste bamsene han har, som fint får plass i sekken. Mamma sier til Oliver: “Så fint. Det var en liten bamse.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 96
+    },
+    {
+        "want": "Adam leker med biler i stua. Pappa sier til Oliver: “Nå skal vi snart få gjester. Du må rydde vekk bilene dine.” Adam svarer: “Okei, jeg skal rydde vekk bilene.” Hva er det pappaen til Adam vil?\nA: Pappa vil at Adam skal rydde vekk bilene sine.\nB: Pappa vil at Adam skal fortsette å leke med biler.",
+        "emotion": "Adam rydder vekk bilene sine før gjestene kommer. Pappa sier til Adam: “Så fint at du ryddet bilene dine.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 97
+    },
+    {
+        "want": "Lisa og lillebroren hennes Julian hopper på trampolinen sammen. Pappa sier til Lisa: “Husk at Julian kan få vondt om du hopper høyt. Hopp forsiktig når du hopper sammen med Julian.”. Lisa svarer: “Okei, jeg skal ikke hoppe høyt.” Hva er det pappaen til Lisa vil?\nA: Pappa vil at Lisa skal hoppe så høyt hun kan.\nB: Pappa vil at Lisa skal hoppe forsiktig.",
+        "emotion": "Lisa hopper forsiktig, så hun og Julian kan hoppe sammen. Pappa sier til Lisa: “Bra. Nå hoppa du forsiktig.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 98
+    },
+    {
+        "want": "William og mamma er ute og aker. Mamma sier til William: “Den store bakken er veldig isete og bratt. Du kan bare ake i de små bakkene.” William svarer: “Okei, jeg skal bare ake i de små bakkene.” Hva er det mammaen til William vil?\nA: Mamma vil at William skal ake i de små bakkene.\nB: Mamma vil at William skal ake i den store bakken.",
+        "emotion": "William aker i de små bakkene, og unngår den store bakken. Mamma sier til William: “Så bra. Du akte ikke i den store bakken.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 99
+    },
+    {
+        "want": "Camilla og pappa er på biltur. Camilla ser på videoer på iPaden. Pappa sier til Camilla: “Husk at du blir bilsyk. Du kan bare se på en video til.” Camilla svarer: “Okei, jeg skal bare se på en video til.” Hva er det pappaen til Camilla vil?\nA: Pappa vil at Camilla skal se på mange videoer.\nB: Pappa vil at Camilla bare skal se på en video til.",
+        "emotion": "Camilla ser på en video til før hun legger bort iPaden sin. Pappa sier til Camilla: “Godt jobba! Du så bare på en video til.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 100
+    },
+    {
+        "want": "Johannes skal snart gjøre seg klar for å sove. Pappa sier til Johannes: “Jeg kommer og sier god natt om fem minutter. Husk å pusse tennene dine før du legger deg.” Johannes svarer: “Jada, jeg skal huske å pusse tenner.” Hva er det pappaen til Johannes vil?\nA: Pappa vil at Johannes skal pusse tenner før han legger seg.\nB: Pappa vil at Johannes skal legge seg uten å pusse tenner.",
+        "emotion": "Johannes pusser tennene sine, før han går og legger seg. Pappa sier til Johannes: “Så bra. Du husket jo å pusse tennene dine.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 101
+    },
+    {
+        "want": "Karl og vennen hans Mira har vannkrig i hagen med vannballonger. Mamma sier til Karl: “Husk at døren til stua er åpen. Pass på så det ikke kommer vann inn. Karl svarer: “Okei, vi skal passe på så det ikke kommer vann inn.” Hva er det mammaen til Karl vil?\nA: Mamma vil at Karl ikke skal kaste vannballonger inn.\nB: Mamma vil at Karl skal kaste vannballonger inn.",
+        "emotion": "Karl passer på at de ikke kaster mot stuedøra, og ingen vannballonger blir kastet inn. Mamma sier til Karl: “Så bra. Du passet på så det ikke kom vann inn.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 102
+    },
+    {
+        "want": "Miriam skal pakke kofferten sin til ferien. Pappa sier til Miriam: “Husk å ikke pakke for mange ting. Da blir kofferten din veldig tung.” Miriam svarer: “Okei, jeg skal ikke pakke for mye.” Hva er det pappaen til Miriam vil?\nA: Pappa vil at Miriam ikke skal pakke for mye.\nB: Pappa vil at Miriam skal pakke så mange ting hun kan.",
+        "emotion": "Miriam pakker bare med seg noen få leker og bærer kofferten ut i stua. Pappa sier til Miriam: “Bra. Du husket jo å ikke pakke for mye.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 103
+    },
+    {
+        "want": "Oskar spiller TV-spill, mens lillebroren hans Fredrik ser på. Mamma sier til Oskar: “Nå har du spilt lenge. Etter denne runden er det Fredrik sin tur.” Oskar svarer: “Jada, Fredrik skal få spille etter denne runden.” Hva er det mammaen til Oskar vil?\nA: Mamma vil at Oskar skal fortsette å spille.\nB: Mamma vil at Oskar skal la Fredrik få spille.",
+        "emotion": "Oskar spiller ferdig runden, og lar Fredrik spille etter ham. Mamma sier til Oskar: “Så fint. Du lot Fredrik også få spille.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 104
+    },
+    {
+        "want": "Heidi skal feire bursdagen sin og vil invitere vennene sine. Mamma sier til Heidi: “Her er invitasjonene til bursdagen din. Husk å dele dem ut på skolen i dag.” Heidi varer: “Jada, jeg skal huske å dele ut invitasjonene.” Hva er det mammaen til Heidi vil?\nA: Mamma vil at Heidi skal dele ut invitasjonene på skolen.\nB: Mamma vil at Heidi ikke skall dele ut invitasjonene på skolen.",
+        "emotion": "Heidi deler ut invitasjonene til vennene sine på skolen. Mamma sier til Heidi: “Så bra. Du husket å dele ut invitasjonene.” Hvordan har mamma det inni seg? Er hun glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 105
+    },
+    {
+        "want": "Richard har lyst til å lage en kake uten hjelp. Pappa sier til Richard: “Husk å ha oppi bakepulver, hvis ikke hever ikke kaken.” Richard svarer: “Jada, jeg skal huske å ha oppi bakepulver.” Hva er det pappaen til Richard vil?\nA: Pappa vi at Richard ikke skal ha oppi bakepulver.\nB: Pappa vil at Richard skal huske å ha oppi bakepulver.",
+        "emotion": "Richard har oppi bakepulver, og kaken blir luftig og god. Pappa sier til Richard: “Godt jobba. Du husket å ha oppi bakepulveret.” Hvordan har pappa det inni seg? Er han sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 106
+    },
+    {
+        "want": "Marie har fått ny lego og gleder seg til å bygge den. Pappa sier til Marie: “Husk å bare åpne én og én pose. Hvis du åpner alle samtidig, blir det vanskelig å finne riktige klosser.” Marie svarer: “Jada, jeg skal bare åpne én pose av gangen.” Hva er det pappaen til Marie vil?\nA: Pappa vil at Marie skal åpne én og én pose.\nB: Pappa vil at Marie skal åpne alle posene på én gang.",
+        "emotion": "Marie åpner én og én pose, og synes det er lett å finne alle klossene. Pappa sier til Marie: “Så fint. Du åpnet bare én pose av gangen.” Hvordan har pappa det inni seg? Er han glad eller sint?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 107
+    },
+    {
+        "want": "Bendik vil ut og leke i det fine været. Mamma sier til Bendik: “Husk å ta på deg solkrem før du går ut, så du ikke blir solbrent.” Bendik svarer: “Okei, jeg skal huske å ta på meg solkrem. Hva er det mammaen til Bendik vil?\nA: Mamma vil at Bendik skal gå ut uten solkrem.\nB: Mamma vil at Bendik skal ta på seg solkrem før han går ut.",
+        "emotion": "Bendik tar på seg solkrem og går ut for å leke. Mamma sier til Bendik: “Så fint. Du husket å ta på deg solkrem.” Hvordan har mamma det inni seg? Er hun sint eller glad?",
+        "gold_label": "praise",
+        "item_type": "new",
+        "item_id": 108
+    }
+]
