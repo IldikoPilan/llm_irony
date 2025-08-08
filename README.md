@@ -11,6 +11,6 @@ Franziska Köder and Ingrid Lossius Falkum. (2021). Irony and perspective-taking
 Each JSON file consists of a list of dictionaries with the following keys:
 - _want_: sentences introducing the situation and asking about what the adult wants; 
 - _emotion_: description of an even occurring followed by a question about the adult's emotion;
-- _gold_label_: 'irony', 'praise' or 'criticism'; 
+- _gold_label_: the manually annotated label, one of 'irony', 'praise' or 'criticism'; 
 - _item_type_: 'original' if from the original study with human participants, 'original_with_new_condition' if the original story was re-written with a new condition, 'new' if the item was added for the LLM-based study;
 - _item_id_: a running number identifying each item, consistent across the two languages.
